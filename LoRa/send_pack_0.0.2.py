@@ -1,3 +1,6 @@
+# Federico Dallo
+# 4 may 2021
+
 # main program
 # 1- (sender) read message and make md5 checksum
 # 2- (sender) split message into submessages and count how many
