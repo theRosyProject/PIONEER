@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Author: Federico Dallo
+# Date: 4 may 2021
+
 value=`cat /home/pi/cronPrograms/LoRa/packet`
 # echo $value
 # 
