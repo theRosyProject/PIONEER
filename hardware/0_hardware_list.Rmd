@@ -1,0 +1,46 @@
+---
+title: "Harware List"
+author: 
+  - "Federico Dallo"
+  - "Naichen Zhao"
+date: "2022-09-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# List of modules
+
+## Box 1: Data Communication 
+
+The data communication box will receive data (UART) from `Box 2: Data Collection` and will be powered (9V - 5V) with the `Box 3: Power Supply`.
+
+The PCB have to be design to act both as `receiver` and `transceiver` and capable to plug-in commercial components:
+
+- Raspberry Pi Zero ([3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/), [Zero](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)) 
+- Arduino [Nano BLE](https://store-usa.arduino.cc/products/arduino-nano-33-ble?selectedStore=us)
+- [ESP32-S3-MINI-1](https://www.adafruit.com/product/5477)
+- [Feather Huzzah ESP8266](https://www.adafruit.com/product/2821)
+
+Additional modules that should be integrated in the PCB:
+
+- [LoRa 868MHz](https://www.adafruit.com/product/3072)
+  - [alternative](https://www.digikey.com/en/products/detail/seeed-technology-co.,-ltd/109990166/7033232?utm_adgroup=RF%20Transceiver%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID_NEW&utm_term=&utm_content=RF%20Transceiver%20Modules&gclid=CjwKCAjwpqCZBhAbEiwAa7pXeRL7nhQhQ7vTGvsG-45Smy6gd5Uc4cDUkz6kC4OnWObWKTFqP0Ql0xoCmRAQAvD_BwE)
+- Temperature/Humidity/Pressure [BME280](https://www.adafruit.com/product/2652)
+- [RTC](https://www.adafruit.com/product/3013)
+
+The connectors that should be on the board:
+
+- Power (USB-C) *Note: the connection should be protected inside the box, with a kind of internal "winding" of the wire to prevent detachment from the board
+- [SMA (example)](https://www.adafruit.com/product/1865) 
+
+Notes:
+
+- 868 MHz antenna
+  - (Taoglass)[https://www.taoglas.com/product/barracuda-omb-868-05f21-868mhz-omni-directional-outdoor-antenna/]
+
+
+
+
