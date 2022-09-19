@@ -22,6 +22,7 @@ The PCB have to be design to act both as `receiver` and `transceiver` and capabl
 - Raspberry Pi Zero ([3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/), [Zero](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)) 
 - Arduino [Nano BLE](https://store-usa.arduino.cc/products/arduino-nano-33-ble?selectedStore=us)
 - [ESP32-S3-MINI-1](https://www.adafruit.com/product/5477)
+   - [documentation](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 - [Feather Huzzah ESP8266](https://www.adafruit.com/product/2821)
 
 Additional modules that should be integrated in the PCB:
