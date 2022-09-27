@@ -1,0 +1,33 @@
+---
+title: "2022-09-27"
+author: 
+ - "Federico Dallo"
+ - "Naichen Zhao"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Notes
+
+- Note: Naichen worked about 5 hrs for the project
+- Com box on 9V -> 5V -> **3V**
+  - Note: the raspberry pi work on 5V.
+- Sensors's box on 5V
+  - The resolution of the sensors is higher
+- Define radio connectors for the LoRa module
+  - [Antenna](https://www.sirioantenne.it/en/products/cellular/cx-840-cx-900)
+  - SMA cable go-through (PCB to box wall) and male to male (box to antenna)
+    - https://www.amazon.com/DHT-Electronics-coaxial-assembly-bulkhead/dp/B00COXZ2RM
+    - https://www.amazon.com/dp/B07V72Q23H/ref=syn_sd_onsite_desktop_102?ie=UTF8&pd_rd_plhdr=t&th=1
+- Define radio go-through connectors
+- Radio box specs
+- Sensors' box specs
+  - Naichen: instead of changing sensors in the box, replace the whole sensors' box. This idea actually make a lot of sense: sensors's box are given to the user for mounting; when aged the box is returned and sensors replaced by "manifacture" while a new sensors' box is provided. 
+  
+## Com box draw
+
+![This is a draft of the com box.](draw_box/draw_box.001.png)
