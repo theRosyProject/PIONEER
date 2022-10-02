@@ -385,7 +385,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "Pioneer Controller.step",
-      "vrml": ""
+      "vrml": "Pioneer Controller.wrl"
     },
     "page_layout_descr_file": ""
   },
