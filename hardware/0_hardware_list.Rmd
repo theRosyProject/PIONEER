@@ -36,6 +36,8 @@ The connectors that should be on the board:
 
 - Power (USB-C) *Note: the connection should be protected inside the box, with a kind of internal "winding" of the wire to prevent detachment from the board
 - [SMA (example)](https://www.adafruit.com/product/1865) 
+- [3-pins power connector](https://www.amazon.com/CNLINKO-Industrial-Connector-Receptacles-Waterproof/dp/B06XFM835T/ref=asc_df_B06XFM835T/?tag=hyprod-20&linkCode=df0&hvadid=309764501757&hvpos=&hvnetw=g&hvrand=15304547746607914750&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032083&hvtargid=pla-572365072529&psc=1)
+- [4-pins data communication connector](https://www.amazon.com/CNLINKO-Industrial-Connector-Receptacles-Waterproof/dp/B06XFMQHWM/ref=sr_1_3?crid=33AKG98EDODT9&keywords=CNLINKO+4+Pin+Power+Industrial+Circular+Connector&qid=1664912760&qu=eyJxc2MiOiIyLjEzIiwicXNhIjoiMS41NCIsInFzcCI6IjEuMzcifQ%3D%3D&s=electronics&sprefix=cnlinko+4+pin+power+industrial+circular+connector%2Celectronics%2C183&sr=1-3)
 
 Notes:
 
