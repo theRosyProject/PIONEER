@@ -1,0 +1,9 @@
+# Connections with the LoRa Module
+3V -- 3V
+GND -- GND
+14/SCK -- SCK
+13/MOSI -- MOSI
+12/MISO -- MISO
+15 -- G0
+16 -- RST
+2 -- CS
