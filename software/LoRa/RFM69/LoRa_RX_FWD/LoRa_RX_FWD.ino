@@ -15,9 +15,9 @@
 #include "RTClib.h"
 
 char* ESPName = "Gate_1";
-char* TOPIC = "pcs-chair";
-//RTC_DS1307 RTC;     // Setup an instance of DS1307 naming it RTC
-RTC_DS3231 RTC;
+char* TOPIC = "LoRa";
+
+RTC_DS3231 rtc;
 
 EspMQTTClient client(
   "NETGEAR_CBE",  //THIS SHOULD BE CalGuest SSID
@@ -31,38 +31,11 @@ EspMQTTClient client(
 int ledPin = 0;
 int inputInt = HIGH;
 
-const int BUFFER_SIZE = 50;
-char buf[BUFFER_SIZE];
+//const int BUFFER_SIZE = 50;
+//char buf[BUFFER_SIZE];
 
-/* for Feather32u4 RFM9x
-#define RFM95_CS 8
-#define RFM95_RST 4
-#define RFM95_INT 7
-*/
-
-/* for feather m0 RFM9x
-#define RFM95_CS 8
-#define RFM95_RST 4
-#define RFM95_INT 3
-*/
-
-/* for shield 
-#define RFM95_CS 10
-#define RFM95_RST 9
-#define RFM95_INT 7
-*/
-
-/* Feather 32u4 w/wing
-#define RFM95_RST     11   // "A"
-#define RFM95_CS      10   // "B"
-#define RFM95_INT     2    // "SDA" (only SDA/SCL/RX/TX have IRQ!)
-*/
-
-/* Feather m0 w/wing 
-#define RFM95_RST     11   // "A"
-#define RFM95_CS      10   // "B"
-#define RFM95_INT     6    // "D"
-*/
+// save time into variable for the keep alive message to send to the broker
+//uint8_t previousHour;
 
 #if defined(ESP8266)
   /* for ESP w/featherwing */ 
@@ -152,25 +125,83 @@ void setup()
   // you can set transmitter powers from 5 to 23 dBm:
   rf95.setTxPower(23, false);
 
-  // Start I2C and RTC
+  // Start I2C
+  Serial.println("Start I2C");
   pinMode(ledPin, OUTPUT);
   Wire.begin(); // Start the I2C
-  RTC.begin();  // Init RTC
+
+  // Start RTC
+  Serial.println("Start RTC"); 
+
+#ifndef ESP8266
+  while (!Serial); // wait for serial port to connect. Needed for native USB
+#endif
+
+  if (! rtc.begin()) {
+    Serial.println("Couldn't find RTC");
+    Serial.flush();
+    while (1) delay(10);
+  }
+
+  if (rtc.lostPower()) {
+    Serial.println("RTC lost power, let's set the time!");
+    // When time needs to be set on a new device, or after a power loss, the
+    // following line sets the RTC to the date & time this sketch was compiled
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+    // This line sets the RTC with an explicit date & time, for example to set
+    // January 21, 2014 at 3am you would call:
+    // rtc.adjust(DateTime(2014, 1, 21, 3, 0, 0));
+  }
+  DateTime now = rtc.now();
+  char starttime[20];
+  sprintf(starttime, "%02d/%02d/%02d %02d:%02d:%02d ",  now.year(), now.month(), now.day(), now.hour(), now.minute(), now.second() );
+  Serial.println(starttime); 
+
+  // keep track of the current hour (will be hour? day? in the final project)
+  //previousHour = now.hour();
 }
 
 // connection with the Cloud server
 void onConnectionEstablished() {
 
+  Serial.println("Connection Established");
+
   //client.subscribe("test", onMessageReceived);
   client.subscribe(TOPIC, onMessageReceived);
 
+  // get time from RTC clock
+  DateTime now = rtc.now();
+  char starttime[20];
+  sprintf(starttime, "%02d/%02d/%02d %02d:%02d:%02d ",  now.year(), now.month(), now.day(), now.hour(), now.minute(), now.second() );
 
   //client.publish("test", String(ESPName) + " joined the channel");
-  client.publish(TOPIC, String(ESPName) + " joined the channel");
+  client.publish(TOPIC, String(starttime) + String(ESPName) + " joined the channel");
 }
 
 void loop()
 {
+  // start the mqtt loop
+  client.loop();
+
+  // save the current time into a variable
+  //DateTime alive_now = rtc.now();
+
+  // debug to send serial message over the MQTT
+  // if (Serial.available() > 0) {
+  //   String myString = Serial.readString();
+  //   digitalWrite(ledPin, LOW);   // sets the LED on
+
+  //   DateTime now = rtc.now();
+  //   char buf1[20];
+  //   sprintf(buf1, "%02d:%02d:%02d %02d/%02d/%02d: ",  now.hour(), now.minute(), now.second(), now.month(), now.day(), now.year());
+  //   myString = buf1 + myString;
+  //   Serial.println(myString);
+  //   //client.publish("test", myString);
+  //   client.publish(TOPIC, myString);
+  // } else {
+  //   digitalWrite(ledPin, HIGH);
+  // }
+
   if (rf95.available())
   {
     // Should be a message for us now
@@ -183,7 +214,7 @@ void loop()
       RH_RF95::printBuffer("Received: ", buf, len);
       Serial.print("Got: ");
       Serial.println((char*)buf);
-       Serial.print("RSSI: ");
+      Serial.print("RSSI: ");
       Serial.println(rf95.lastRssi(), DEC);
 
       // Send a reply
@@ -194,11 +225,12 @@ void loop()
       digitalWrite(LED, LOW);
 
       // Send data on the cloud
-      String myString = Serial.readString();
+      //String myString = Serial.readString();
+      String myString = (char*)buf;
       digitalWrite(ledPin, LOW);   // sets the LED on
-      DateTime now = RTC.now();
+      DateTime now = rtc.now();
       char buf1[20];
-      sprintf(buf1, "%02d:%02d:%02d %02d/%02d/%02d: ",  now.hour(), now.minute(), now.second(), now.month(), now.day(), now.year());
+      sprintf(buf1, "%02d/%02d/%02d %02d:%02d:%02d ",  now.year(), now.month(), now.day(), now.hour(), now.minute(), now.second() );
       myString = buf1 + myString;
       Serial.println(myString);
       client.publish(TOPIC, myString);
@@ -209,6 +241,17 @@ void loop()
       digitalWrite(ledPin, HIGH);
     }
   }
+
+  // keep alive message
+  // if ( alive_now.hour() != previousHour )
+  // {
+  //   DateTime nalive_now = rtc.now();
+  //   previousHour = alive_now.hour();
+  //   char starttime[20];
+  //   sprintf(starttime, "%02d/%02d/%02d %02d:%02d:%02d ",  alive_now.year(), alive_now.month(), alive_now.day(), alive_now.hour(), alive_now.minute(), alive_now.second() );
+  //   client.publish(TOPIC, String(starttime) + String(ESPName) + " alive");
+  // }
+
 }
 
 void onMessageReceived(const String& message) {

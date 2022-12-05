@@ -1,13 +1,8 @@
-// Feather9x_TX
-// -*- mode: C++ -*-
-// Example sketch showing how to create a simple messaging client (transmitter)
-// with the RH_RF95 class. RH_RF95 class does not provide for addressing or
-// reliability, so you should only use RH_RF95 if you do not need the higher
-// level messaging abilities.
-// It is designed to work with the other example Feather9x_RX
-
+// LoRa module libraries
 #include <SPI.h>
 #include <RH_RF95.h>
+
+char* ESPName = "Node_1";
 
 #if defined(ESP8266)
   /* for ESP w/featherwing */ 
@@ -51,6 +46,25 @@
 // Singleton instance of the radio driver
 RH_RF95 rf95(RFM95_CS, RFM95_INT);
 
+// RTC 
+#include "RTClib.h"
+RTC_DS3231 rtc;
+
+// BME280 libs and config
+#include <Wire.h>
+#include <SPI.h>
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BME280.h>
+#define BME_SCK 13
+#define BME_MISO 12
+#define BME_MOSI 11
+#define BME_CS 10
+#define SEALEVELPRESSURE_HPA (1013.25)
+Adafruit_BME280 bme; // I2C
+//Adafruit_BME280 bme(BME_CS); // hardware SPI
+//Adafruit_BME280 bme(BME_CS, BME_MOSI, BME_MISO, BME_SCK); // software SPI
+unsigned long delayTime;
+
 void setup() 
 {
   pinMode(RFM95_RST, OUTPUT);
@@ -91,6 +105,42 @@ void setup()
   // If you are using RFM95/96/97/98 modules which uses the PA_BOOST transmitter pin, then 
   // you can set transmitter powers from 5 to 23 dBm:
   rf95.setTxPower(23, false);
+
+  // Start RTC
+  Serial.println("Start RTC");
+  if (! rtc.begin()) {
+    Serial.println("Couldn't find RTC");
+    Serial.flush();
+    while (1) delay(10);
+  }
+  if (rtc.lostPower()) {
+    Serial.println("RTC lost power, let's set the time!");
+    // When time needs to be set on a new device, or after a power loss, the
+    // following line sets the RTC to the date & time this sketch was compiled
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+    // This line sets the RTC with an explicit date & time, for example to set
+    // January 21, 2014 at 3am you would call:
+    // rtc.adjust(DateTime(2014, 1, 21, 3, 0, 0));
+  }
+  DateTime now = rtc.now();
+  char starttime[20];
+  sprintf(starttime, "%02d/%02d/%02d %02d:%02d:%02d ",  now.year(), now.month(), now.day(), now.hour(), now.minute(), now.second() );
+  Serial.println(starttime);
+
+  // BME280 test
+  Serial.println(F("BME280 test"));
+  unsigned status;
+  status = bme.begin();
+  if (!status) {
+        Serial.println("Could not find a valid BME280 sensor, check wiring, address, sensor ID!");
+        Serial.print("SensorID was: 0x"); Serial.println(bme.sensorID(),16);
+        Serial.print("        ID of 0xFF probably means a bad address, a BMP 180 or BMP 085\n");
+        Serial.print("   ID of 0x56-0x58 represents a BMP 280,\n");
+        Serial.print("        ID of 0x60 represents a BME 280.\n");
+        Serial.print("        ID of 0x61 represents a BME 680.\n");
+        while (1) delay(10);
+  }
+
 }
 
 int16_t packetnum = 0;  // packet counter, we increment per xmission
@@ -100,14 +150,22 @@ void loop()
   //delay(1000*60); // Wait 1 second between transmits, could also 'sleep' here!
   Serial.println("Transmitting..."); // Send a message to rf95_server
   
-  char radiopacket[20] = "Hello World #      ";
-  itoa(packetnum++, radiopacket+13, 10);
-  Serial.print("Sending "); Serial.println(radiopacket);
-  radiopacket[19] = 0;
+  // char radiopacket[20] = "Hello World #      ";
+  // itoa(packetnum++, radiopacket+13, 10);
+  // Serial.print("Sending "); Serial.println(radiopacket);
+  // radiopacket[19] = 0;
   
-  Serial.println("Sending...");
-  delay(10);
-  rf95.send((uint8_t *)radiopacket, 20);
+  // Serial.println("Sending...");
+  // delay(10);
+  // rf95.send((uint8_t *)radiopacket, 20);
+
+  // Prepare a message to be sent
+  DateTime now = rtc.now();
+  char buf1[20];
+  sprintf(buf1, "%02d%02d%02d%02d%02d%02d",  now.year(), now.month(), now.day(), now.hour(), now.minute(), now.second() );
+  //myString = buf1 + myString;
+  //Serial.println(myString);
+  rf95.send((uint8_t *)buf1, 20);
 
   Serial.println("Waiting for packet to complete..."); 
   delay(10);

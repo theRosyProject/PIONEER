@@ -1,158 +1,4 @@
-20962253952174174
-Adafruit ESPs
-ESP32-S3
-
-
-0
-28
-27
-Adafruit Feather ESP8266
-XCVR_Adafruit Feather ESP8266
-
-
-0
-30
-30
-Adafruit HUZZAH ESP8266 Basic Breakout
-1X06_ROUND_70
-
-
-0
-6
-6
-Adafruit HUZZAH ESP8266 Basic Breakout
-1X10_ROUND70
-
-
-0
-10
-10
-Adafruit HUZZAH ESP8266 Basic Breakout
-0805-NO
-
-
-0
-2
-2
-Adafruit HUZZAH ESP8266 Basic Breakout
-ADAFRUIT_2.5MM
-
-
-0
-0
-0
-Adafruit HUZZAH ESP8266 Basic Breakout
-ADAFRUIT_TEXT_20MM
-
-
-0
-0
-0
-Adafruit HUZZAH ESP8266 Basic Breakout
-BTN_KMR2_4.6X2.8
-
-
-0
-4
-4
-Adafruit HUZZAH ESP8266 Basic Breakout
-CHIPLED_0805_NOOUTLINE
-
-
-0
-2
-2
-Adafruit HUZZAH ESP8266 Basic Breakout
-ESP-12
-
-
-0
-16
-16
-Adafruit HUZZAH ESP8266 Basic Breakout
-FIDUCIAL_1MM
-
-
-0
-1
-1
-Adafruit HUZZAH ESP8266 Basic Breakout
-HUZZAHLOGO
-
-
-0
-0
-0
-Adafruit HUZZAH ESP8266 Basic Breakout
-MOUNTINGHOLE_2.5_PLATED
-
-
-0
-1
-1
-Adafruit HUZZAH ESP8266 Basic Breakout
-PCBFEAT-REV-040
-<b>Revision Level Field</b> - 40 mil<p>{return}Set version with global board attribute '>REV'
-
-0
-0
-0
-Adafruit HUZZAH ESP8266 Basic Breakout
-SOD-123
-<b>SOD-123</b>{return}<p>Source: http://www.diodes.com/datasheets/ds30139.pdf</p>
-
-0
-2
-2
-Adafruit HUZZAH ESP8266 Basic Breakout
-SOD-323
-<b>SOD323</b> (2.5x1.2mm)
-
-0
-2
-2
-Adafruit HUZZAH ESP8266 Basic Breakout
-SOT23-5
-<b>Small Outline Transistor</b> - 5 Pin
-
-0
-5
-5
-Adafruit_Sensors
-BME280 I2C Temperature Sensor
-
-
-0
-7
-7
-Adafruit_Sensors
-DS3231 Precision RTC
-
-
-0
-8
-8
-Adafruit_Sensors
-FM95W LoRa Radio Transceiver
-
-
-0
-15
-15
-Arduino Nano
-NANO_33_Footprint_SMD_Castell
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-30
-30
-Arduino Nano
-NANO_33_Socket_Castell
-Through hole straight socket strip, 1x15, 2.54mm pitch
-Through hole socket strip THT 1x15 2.54mm single row
-0
-90
-30
+20335072372163925
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1534,8 +1380,8 @@ Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/A
 2
 Button_Switch_SMD
 SW_SPST_EVQP2
-Light Touch Switch
-
+Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000C374.pdf
+SMD SMT SPST EVQP2
 0
 4
 2
@@ -2404,6 +2250,13 @@ Buzzer_Beeper
 Buzzer_Mallory_AST1109MLTRQ
 Mallory low-profile piezo buzzer, https://www.mspindy.com/specifications/AST1109MLTRQ.pdf
 buzzer piezo
+0
+2
+2
+Buzzer_Beeper
+Buzzer_Mallory_AST1240MLQ
+Mallory low-profile piezo buzzer, https://www.mspindy.com/specifications/AST12140MLQ.pdf
+piezo buzzer
 0
 2
 2
@@ -3935,8 +3788,8 @@ CP Radial series Radial pin pitch 7.50mm  diameter 18mm Electrolytic Capacitor
 2
 Capacitor_THT
 CP_Radial_D22.0mm_P10.00mm_3pin_SnapIn
-CP, Radial series, Radial, pin pitch=10.00mm, , diameter=22mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
-CP Radial series Radial pin pitch 10.00mm  diameter 22mm Electrolytic Capacitor
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=22mm, height=40mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 22mm height 40mm Electrolytic Capacitor
 0
 3
 2
@@ -3949,8 +3802,8 @@ CP Radial series Radial pin pitch 10.00mm  diameter 22mm Electrolytic Capacitor
 2
 Capacitor_THT
 CP_Radial_D24.0mm_P10.00mm_3pin_SnapIn
-CP, Radial series, Radial, pin pitch=10.00mm, , diameter=24mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
-CP Radial series Radial pin pitch 10.00mm  diameter 24mm Electrolytic Capacitor
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=24mm, height=40mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 24mm height 40mm Electrolytic Capacitor
 0
 3
 2
@@ -3963,8 +3816,8 @@ CP Radial series Radial pin pitch 10.00mm  diameter 24mm Electrolytic Capacitor
 2
 Capacitor_THT
 CP_Radial_D25.0mm_P10.00mm_3pin_SnapIn
-CP, Radial series, Radial, pin pitch=10.00mm, , diameter=25mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
-CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=25mm, height=45mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 25mm height 45mm Electrolytic Capacitor
 0
 3
 2
@@ -3977,8 +3830,8 @@ CP Radial series Radial pin pitch 10.00mm  diameter 25mm Electrolytic Capacitor
 2
 Capacitor_THT
 CP_Radial_D26.0mm_P10.00mm_3pin_SnapIn
-CP, Radial series, Radial, pin pitch=10.00mm, , diameter=26mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
-CP Radial series Radial pin pitch 10.00mm  diameter 26mm Electrolytic Capacitor
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=26mm, height=45mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 26mm height 45mm Electrolytic Capacitor
 0
 3
 2
@@ -3991,8 +3844,8 @@ CP Radial series Radial pin pitch 10.00mm  diameter 26mm Electrolytic Capacitor
 2
 Capacitor_THT
 CP_Radial_D30.0mm_P10.00mm_3pin_SnapIn
-CP, Radial series, Radial, pin pitch=10.00mm, , diameter=30mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
-CP Radial series Radial pin pitch 10.00mm  diameter 30mm Electrolytic Capacitor
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=30mm, height=45mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 30mm height 45mm Electrolytic Capacitor
 0
 3
 2
@@ -4005,8 +3858,8 @@ CP Radial series Radial pin pitch 10.00mm  diameter 30mm Electrolytic Capacitor
 2
 Capacitor_THT
 CP_Radial_D35.0mm_P10.00mm_3pin_SnapIn
-CP, Radial series, Radial, pin pitch=10.00mm, , diameter=35mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
-CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=35mm, height=50mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 35mm height 50mm Electrolytic Capacitor
 0
 3
 2
@@ -4019,8 +3872,8 @@ CP Radial series Radial pin pitch 10.00mm  diameter 35mm Electrolytic Capacitor
 2
 Capacitor_THT
 CP_Radial_D40.0mm_P10.00mm_3pin_SnapIn
-CP, Radial series, Radial, pin pitch=10.00mm, , diameter=40mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
-CP Radial series Radial pin pitch 10.00mm  diameter 40mm Electrolytic Capacitor
+CP, Radial series, Radial, pin pitch=10.00mm, diameter=40mm, height=50mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf
+CP Radial series Radial pin pitch 10.00mm diameter 40mm height 50mm Electrolytic Capacitor
 0
 3
 2
@@ -11063,6 +10916,13 @@ Connector_HDMI
 HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
 HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
 hdmi type a
+0
+23
+20
+Connector_HDMI
+HDMI_A_Molex_208658-1001_Horizontal
+HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
+HDMI Molex Type A
 0
 23
 20
@@ -42189,6 +42049,13 @@ AJP92A8813 8P8C RJ45 ethernet plug
 8
 8
 Connector_RJ
+RJ45_Pulse_JK00177NL_Horizontal
+10/100/1000 Base-T RJ45 single port with LEDs and 75W POE, https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/J432/doc_part/J432.pdf
+RJ45 8p8c ethernet POE
+0
+22
+21
+Connector_RJ
 RJ45_Pulse_JK0654219NL_Horizontal
 10/100/1000 Base-T RJ45 single port with LEDs https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf#page=2
 RJ45 8p8c ethernet
@@ -42274,10 +42141,10 @@ FMC HPC
 400
 Connector_Samtec
 Samtec_FMC_ASP-134604-01_4x40_Vertical
-http://www.samtec.com/standards/vita.aspx
+https://suddendocs.samtec.com/prints/asp-134604-01-mkt.pdf
 FMC LPC VITA 
 0
-162
+160
 160
 Connector_Samtec
 Samtec_LSHM-105-xx.x-x-DV-N_2x05_P0.50mm_Vertical
@@ -45863,6 +45730,13 @@ usb A plug horizontal
 0
 11
 10
+Connector_USB
+USB3_Micro-B_Connfly_DS1104-01
+Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://en.connfly.com/static/upload/file/pdf/DS1104-01.pdf)
+USB 3.0 Micro B SMD right angle
+0
+16
+11
 Connector_USB
 USB_A_CNCTech_1001-011-01101_Horizontal
 USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf
@@ -50350,13 +50224,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DRV8833
-DRV8833
-
-
-0
-16
-15
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -52247,363 +52114,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-Espressif
-1X12_ROUND
-
-
-0
-12
-12
-Espressif
-1X16_ROUND
-<b>PIN HEADER</b>
-
-0
-16
-16
-Espressif
-0603-NO
-
-
-0
-2
-2
-Espressif
-0805-NO
-
-
-0
-2
-2
-Espressif
-BME280
-<p>Source: http://ae-bst.resource.bosch.com/media/products/dokumente/bme280/BST-BME280_DS001-09.pdf</p>
-
-0
-8
-8
-Espressif
-BTN_KMR2_4.6X2.8
-
-
-0
-4
-4
-Espressif
-CHIPLED_0603_NOOUTLINE
-
-
-0
-2
-2
-Espressif
-ESP32-C3-MINI-1
-ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-36
-Espressif
-ESP32-C3-MINI-1U
-ESP32-C3-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-36
-Espressif
-ESP32-C3-MINI-1_Hand-Soldering
-ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-36
-Espressif
-ESP32-C3-WROOM-02
-ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
-ESP32-C3
-0
-27
-19
-Espressif
-ESP32-C3-WROOM-02U
-ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
-ESP32-C3
-0
-27
-19
-Espressif
-ESP32-DevKitC
-ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
-ESP32
-0
-38
-38
-Espressif
-ESP32-PICO-MINI-02
-ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02
-0
-61
-36
-Espressif
-ESP32-PICO-MINI-02U
-ESP32-PICO-MINI-02U: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02U
-0
-61
-36
-Espressif
-ESP32-PICO-MINI-02_Hand-Soldering
-ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02
-0
-61
-36
-Espressif
-ESP32-S2-DevKitM
-ESP32-S2 general-purpose development board
-ESP32-S2
-0
-42
-42
-Espressif
-ESP32-S2-MINI-1
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2
-0
-73
-46
-Espressif
-ESP32-S2-MINI-1U
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2
-0
-73
-46
-Espressif
-ESP32-S2-MINI-1_Hand-Soldering
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2
-0
-73
-46
-Espressif
-ESP32-S2-SOLO
-ESP32-S2-SOLO https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
-esp32-s2 module
-0
-49
-41
-Espressif
-ESP32-S2-Saola-1
-Espressif ESP32-S2-Saola-1 Development Kit: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html
-esp32-s2 devkit
-0
-42
-42
-Espressif
-ESP32-S2-WROOM
-ESP32-S2-WROOM and ESP32-S2-WROOM-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
-ESP32-S2
-0
-51
-43
-Espressif
-ESP32-S2-WROVER
-ESP32-S2-WROVER and ESP32-S2-WROVER-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf
-ESP32-S2
-0
-51
-43
-Espressif
-ESP32-S3-DevKitC
-ESP32-S3 general-purpose development board, based on ESP32-S3-WROOM-1 or ESP32-S3-WROOM-1U,It has all the ESP32-S3 pins exposed and is easy to connect and use.
-ESP32-S3
-0
-44
-44
-Espressif
-ESP32-S3-MINI-1
-ESP32-S3-MINI-1
-esp32-s3
-0
-73
-46
-Espressif
-ESP32-S3-MINI-1U
-ESP32-S3-MINI-1 and ESP32-S3-MINI-1U
-esp32-s3
-0
-73
-46
-Espressif
-ESP32-S3-WROOM-1
-ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-49
-41
-Espressif
-ESP32-S3-WROOM-1U
-ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-49
-41
-Espressif
-ESP32-S3-WROOM-2
-ESP32-S3-WROOM-2 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-49
-41
-Espressif
-ESP32-WROOM-32E
-ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-ESP32
-0
-47
-39
-Espressif
-ESP32-WROOM-32UE
-ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-ESP32
-0
-47
-39
-Espressif
-ESP32-WROVER-E
-ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-esp32 module
-0
-47
-39
-Espressif
-ESP32-WROVER-E_Thermal_Vias
-ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-esp32 module
-0
-59
-39
-Espressif
-FEATHERLOGO_MED
-
-
-0
-0
-0
-Espressif
-FIDUCIAL_1MM
-
-
-0
-1
-1
-Espressif
-JSTPH2_BATT
-2-Pin JST PH Series Right-Angle Connector (+/- for batteries)
-
-0
-4
-4
-Espressif
-JST_SH4_RA
-
-
-0
-6
-6
-Espressif
-MOUNTINGHOLE_2.5_PLATED
-
-
-0
-1
-1
-Espressif
-PCBFEAT-REV-040
-<b>Revision Level Field</b> - 40 mil<p>{return}Set version with global board attribute '>REV'
-
-0
-0
-0
-Espressif
-QFN60_ESP32-S2-MINI-1_EXP
-
-
-0
-73
-73
-Espressif
-RESPACK_4X0603
-
-
-0
-8
-8
-Espressif
-SK6805_1515
-
-
-0
-4
-4
-Espressif
-SOD-123
-<b>SOD-123</b>{return}<p>Source: http://www.diodes.com/datasheets/ds30139.pdf</p>
-
-0
-2
-2
-Espressif
-SOT23-5
-<b>Small Outline Transistor</b> - 5 Pin
-
-0
-5
-5
-Espressif
-SOT23-R
-<b>SOT23</b> - Reflow soldering
-
-0
-3
-3
-Espressif
-STEMMAQT
-
-
-0
-0
-0
-Espressif
-TESTPOINT_ROUND_1.5MM_NO
-
-
-0
-1
-1
-Espressif
-USB_C_CUSB31-CFM2AX-01-X
-
-
-0
-16
-16
-Espressif
-WLCSP9
-
-
-0
-9
-9
-Espressif
-_0805MP
-<b>0805 MicroPitch</b>
-
-0
-2
-2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -53584,34 +53094,6 @@ heatsink
 0
 2
 1
-Images
-Sahai
-
-
-0
-0
-0
-Images
-Uno_Reverse
-
-
-0
-0
-0
-Images
-cap
-
-
-0
-0
-0
-Images
-gamer-chair
-
-
-0
-0
-0
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -56951,2722 +56433,6 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
-JST
-B06-J11DK_2x03_Pitch2.54mm
-JFA J1000 series connector, dual row, top entry
-jst through hole tht vertical
-0
-6
-6
-JST
-B08-J11DK_2x04_Pitch2.54mm
-JFA J1000 series connector, dual row, top entry
-jst through hole tht vertical
-0
-8
-8
-JST
-B12-J11DK_2x06_Pitch2.54mm
-JFA J1000 series connector, dual row, top entry
-jst through hole tht vertical
-0
-12
-12
-JST
-B20-J11DK_2x10_Pitch2.54mm
-JFA J1000 series connector, dual row, top entry
-jst through hole tht vertical
-0
-20
-20
-JST
-B22-J11DK_2x11_Pitch2.54mm
-JFA J1000 series connector, dual row, top entry
-jst through hole tht vertical
-0
-22
-22
-JST
-B26-J11DK_2x13_Pitch2.54mm
-JFA J1000 series connector, dual row, top entry
-jst through hole tht vertical
-0
-26
-26
-JST
-B30-J11DK_2x15_Pitch2.54mm
-JFA J1000 series connector, dual row, top entry
-jst through hole tht vertical
-0
-30
-30
-JST
-JST_ACH_BM02B-ACHSS_02x1.20mm_Angled
-JST ACH Series Connector, 1.20mm Pitch
-JST ACH connector crimp top entry
-0
-4
-2
-JST
-JST_ACH_BM03B-ACHSS_03x1.20mm_Angled
-JST ACH Series Connector, 1.20mm Pitch
-JST ACH connector crimp top entry
-0
-5
-3
-JST
-JST_AUH_BM03B-AUHKS-GA-TB_03x1.50mm_Angled
-JST AUH series connector, 1.5mm pitch SMD side entry
-jst auh connector 
-0
-5
-3
-JST
-JST_AUH_BM05B-AUHKS-GA-TB_05x1.50mm_Angled
-JST AUH series connector, 1.5mm pitch SMD side entry
-jst auh connector 
-0
-7
-5
-JST
-JST_EH_B02B-EH-A_02x2.50mm_Straight
-JST EH series connector, B02B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-2
-2
-JST
-JST_EH_B03B-EH-A_03x2.50mm_Straight
-JST EH series connector, B03B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-3
-3
-JST
-JST_EH_B04B-EH-A_04x2.50mm_Straight
-JST EH series connector, B04B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-4
-4
-JST
-JST_EH_B05B-EH-A_05x2.50mm_Straight
-JST EH series connector, B05B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-5
-5
-JST
-JST_EH_B06B-EH-A_06x2.50mm_Straight
-JST EH series connector, B06B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-6
-6
-JST
-JST_EH_B07B-EH-A_07x2.50mm_Straight
-JST EH series connector, B07B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-7
-7
-JST
-JST_EH_B08B-EH-A_08x2.50mm_Straight
-JST EH series connector, B08B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-8
-8
-JST
-JST_EH_B09B-EH-A_09x2.50mm_Straight
-JST EH series connector, B09B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-9
-9
-JST
-JST_EH_B10B-EH-A_10x2.50mm_Straight
-JST EH series connector, B10B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-10
-10
-JST
-JST_EH_B11B-EH-A_11x2.50mm_Straight
-JST EH series connector, B11B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-11
-11
-JST
-JST_EH_B12B-EH-A_12x2.50mm_Straight
-JST EH series connector, B12B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-12
-12
-JST
-JST_EH_B13B-EH-A_13x2.50mm_Straight
-JST EH series connector, B13B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-13
-13
-JST
-JST_EH_B14B-EH-A_14x2.50mm_Straight
-JST EH series connector, B14B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-14
-14
-JST
-JST_EH_B15B-EH-A_15x2.50mm_Straight
-JST EH series connector, B15B-EH-A, 2.50mm pitch, top entry
-connector jst eh top vertical straight
-0
-15
-15
-JST
-JST_EH_S02B-EH_02x2.50mm_Angled
-JST EH series connector, S02B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-2
-2
-JST
-JST_EH_S03B-EH_03x2.50mm_Angled
-JST EH series connector, S03B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-3
-3
-JST
-JST_EH_S04B-EH_04x2.50mm_Angled
-JST EH series connector, S04B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-4
-4
-JST
-JST_EH_S05B-EH_05x2.50mm_Angled
-JST EH series connector, S05B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-5
-5
-JST
-JST_EH_S06B-EH_06x2.50mm_Angled
-JST EH series connector, S06B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-6
-6
-JST
-JST_EH_S07B-EH_07x2.50mm_Angled
-JST EH series connector, S07B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-7
-7
-JST
-JST_EH_S08B-EH_08x2.50mm_Angled
-JST EH series connector, S08B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-8
-8
-JST
-JST_EH_S09B-EH_09x2.50mm_Angled
-JST EH series connector, S09B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-9
-9
-JST
-JST_EH_S10B-EH_10x2.50mm_Angled
-JST EH series connector, S10B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-10
-10
-JST
-JST_EH_S11B-EH_11x2.50mm_Angled
-JST EH series connector, S11B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-11
-11
-JST
-JST_EH_S12B-EH_12x2.50mm_Angled
-JST EH series connector, S12B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-12
-12
-JST
-JST_EH_S13B-EH_13x2.50mm_Angled
-JST EH series connector, S13B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-13
-13
-JST
-JST_EH_S14B-EH_14x2.50mm_Angled
-JST EH series connector, S14B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-14
-14
-JST
-JST_EH_S15B-EH_15x2.50mm_Angled
-JST EH series connector, S15B-EH, 2.50mm pitch, side entry
-connector jst eh side horizontal angled
-0
-15
-15
-JST
-JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight
-JST GH series connector, BM02B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-4
-2
-JST
-JST_GH_BM03B-GHS-TBT_03x1.25mm_Straight
-JST GH series connector, BM03B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-5
-3
-JST
-JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight
-JST GH series connector, BM04B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-6
-4
-JST
-JST_GH_BM05B-GHS-TBT_05x1.25mm_Straight
-JST GH series connector, BM05B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-7
-5
-JST
-JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight
-JST GH series connector, BM06B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-8
-6
-JST
-JST_GH_BM07B-GHS-TBT_07x1.25mm_Straight
-JST GH series connector, BM07B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-9
-7
-JST
-JST_GH_BM08B-GHS-TBT_08x1.25mm_Straight
-JST GH series connector, BM08B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-10
-8
-JST
-JST_GH_BM09B-GHS-TBT_09x1.25mm_Straight
-JST GH series connector, BM09B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-11
-9
-JST
-JST_GH_BM10B-GHS-TBT_10x1.25mm_Straight
-JST GH series connector, BM10B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-12
-10
-JST
-JST_GH_BM11B-GHS-TBT_11x1.25mm_Straight
-JST GH series connector, BM11B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-13
-11
-JST
-JST_GH_BM12B-GHS-TBT_12x1.25mm_Straight
-JST GH series connector, BM12B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-14
-12
-JST
-JST_GH_BM13B-GHS-TBT_13x1.25mm_Straight
-JST GH series connector, BM13B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-15
-13
-JST
-JST_GH_BM14B-GHS-TBT_14x1.25mm_Straight
-JST GH series connector, BM14B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-16
-14
-JST
-JST_GH_BM15B-GHS-TBT_15x1.25mm_Straight
-JST GH series connector, BM15B-GHS-TBT, top entry type
-connector jst GH SMT top vertical entry 1.25mm pitch
-0
-17
-15
-JST
-JST_GH_SM02B-GHS-TB_02x1.25mm_Angled
-JST GH series connector, SM02B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-4
-2
-JST
-JST_GH_SM03B-GHS-TB_03x1.25mm_Angled
-JST GH series connector, SM03B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-5
-3
-JST
-JST_GH_SM04B-GHS-TB_04x1.25mm_Angled
-JST GH series connector, SM04B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-6
-4
-JST
-JST_GH_SM05B-GHS-TB_05x1.25mm_Angled
-JST GH series connector, SM05B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-7
-5
-JST
-JST_GH_SM06B-GHS-TB_06x1.25mm_Angled
-JST GH series connector, SM06B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-8
-6
-JST
-JST_GH_SM07B-GHS-TB_07x1.25mm_Angled
-JST GH series connector, SM07B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-9
-7
-JST
-JST_GH_SM08B-GHS-TB_08x1.25mm_Angled
-JST GH series connector, SM08B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-10
-8
-JST
-JST_GH_SM09B-GHS-TB_09x1.25mm_Angled
-JST GH series connector, SM09B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-11
-9
-JST
-JST_GH_SM10B-GHS-TB_10x1.25mm_Angled
-JST GH series connector, SM10B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-12
-10
-JST
-JST_GH_SM11B-GHS-TB_11x1.25mm_Angled
-JST GH series connector, SM11B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-13
-11
-JST
-JST_GH_SM12B-GHS-TB_12x1.25mm_Angled
-JST GH series connector, SM12B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-14
-12
-JST
-JST_GH_SM13B-GHS-TB_13x1.25mm_Angled
-JST GH series connector, SM13B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-15
-13
-JST
-JST_GH_SM14B-GHS-TB_14x1.25mm_Angled
-JST GH series connector, SM14B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-16
-14
-JST
-JST_GH_SM15B-GHS-TB_15x1.25mm_Angled
-JST GH series connector, SM15B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-17
-15
-JST
-JST_J2100_B06B-J21DK-GG_2x03x2.50mm_Straight
-JST J2100 series connector, dual row, center locking, B06B-J21DK-GG, top entry type, through hole
-connector jst j2100 vertical
-0
-8
-6
-JST
-JST_J2100_B08B-J21DK-GG_2x04x2.50mm_Straight
-JST J2100 series connector, dual row, center locking, B08B-J21DK-GG, top entry type, through hole
-connector jst j2100 vertical
-0
-10
-8
-JST
-JST_J2100_B10B-J21DK-GG_2x05x2.50mm_Straight
-JST J2100 series connector, dual row, center locking, B10B-J21DK-GG, top entry type, through hole
-connector jst j2100 vertical
-0
-12
-10
-JST
-JST_J2100_B12B-J21DK-GG_2x06x2.50mm_Straight
-JST J2100 series connector, dual row, center locking, B12B-J21DK-GG, top entry type, through hole
-connector jst j2100 vertical
-0
-14
-12
-JST
-JST_J2100_B16B-J21DK-GG_2x08x2.50mm_Straight
-JST J2100 series connector, dual row, center locking, B16B-J21DK-GG, top entry type, through hole
-connector jst j2100 vertical
-0
-18
-16
-JST
-JST_J2100_B20B-J21DK-GG_2x10x2.50mm_Straight
-JST J2100 series connector, dual row, center locking, B20B-J21DK-GG, top entry type, through hole
-connector jst j2100 vertical
-0
-22
-20
-JST
-JST_J2100_S06B-J21DK-GG_2x03x2.50mm_Angled
-JST J2100 series connector, dual row, center locking, S06B-J21DK-GG, side entry type, through hole
-connector jst j2100 horizontal
-0
-7
-6
-JST
-JST_J2100_S08B-J21DK-GG_2x04x2.50mm_Angled
-JST J2100 series connector, dual row, center locking, S08B-J21DK-GG, side entry type, through hole
-connector jst j2100 horizontal
-0
-10
-8
-JST
-JST_J2100_S10B-J21DK-GG_2x05x2.50mm_Angled
-JST J2100 series connector, dual row, center locking, S10B-J21DK-GG, side entry type, through hole
-connector jst j2100 horizontal
-0
-12
-10
-JST
-JST_J2100_S12B-J21DK-GG_2x06x2.50mm_Angled
-JST J2100 series connector, dual row, center locking, S12B-J21DK-GG, side entry type, through hole
-connector jst j2100 horizontal
-0
-14
-12
-JST
-JST_J2100_S16B-J21DK-GG_2x08x2.50mm_Angled
-JST J2100 series connector, dual row, center locking, S16B-J21DK-GG, side entry type, through hole
-connector jst j2100 horizontal
-0
-18
-16
-JST
-JST_J2100_S20B-J21DK-GG_2x10x2.50mm_Angled
-JST J2100 series connector, dual row, center locking, S20B-J21DK-GG, side entry type, through hole
-connector jst j2100 horizontal
-0
-22
-20
-JST
-JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical
-JST JWPF series connector, B02B-JWPF-SK-R, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/eJWPF1.pdf
-connector JST JWPF
-0
-2
-2
-JST
-JST_JWPF_B03B-JWPF-SK-R_1x03_P2.00mm_Vertical
-JST JWPF series connector, B03B-JWPF-SK-R, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/eJWPF1.pdf
-connector JST JWPF
-0
-3
-3
-JST
-JST_JWPF_B04B-JWPF-SK-R_1x04_P2.00mm_Vertical
-JST JWPF series connector, B04B-JWPF-SK-R, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/eJWPF1.pdf
-connector JST JWPF
-0
-4
-4
-JST
-JST_JWPF_B06B-JWPF-SK-R_2x03_P2.00mm_Vertical
-JST JWPF series connector, B06B-JWPF-SK-R, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/eJWPF1.pdf
-connector JST JWPF
-0
-6
-6
-JST
-JST_JWPF_B08B-JWPF-SK-R_2x04_P2.00mm_Vertical
-JST JWPF series connector, B08B-JWPF-SK-R, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/eJWPF1.pdf
-connector JST JWPF
-0
-8
-8
-JST
-JST_LEA_SM02B-LEASS-TF_02x1.80mm_Angled
-JST LEA series connector, SM02B-LEASS-TF, 1.80mm pitch, side entry, surface mount
-connector jst leass
-0
-4
-2
-JST
-JST_NV_B02P-NV_2x5.00mm_Vertical
-JST NV series connector, B02P-NV, 5.00mm pitch, top entry type, through hole
-connector jst nv vertical
-0
-2
-2
-JST
-JST_NV_B03P-NV_3x5.00mm_Vertical
-JST NV series connector, B03P-NV, 5.00mm pitch, top entry type, through hole
-connector jst nv vertical
-0
-3
-3
-JST
-JST_NV_B04P-NV_4x5.00mm_Vertical
-JST NV series connector, B04P-NV, 5.00mm pitch, top entry type, through hole
-connector jst nv vertical
-0
-4
-4
-JST
-JST_PH_B2B-PH-K_02x2.00mm_Straight
-JST PH series connector, B2B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-2
-2
-JST
-JST_PH_B2B-PH-SM4-TB_02x2.00mm_Straight
-JST PH series connector, B2B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-4
-2
-JST
-JST_PH_B3B-PH-K_03x2.00mm_Straight
-JST PH series connector, B3B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-3
-3
-JST
-JST_PH_B3B-PH-SM4-TB_03x2.00mm_Straight
-JST PH series connector, B3B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-5
-3
-JST
-JST_PH_B4B-PH-K_04x2.00mm_Straight
-JST PH series connector, B4B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-4
-4
-JST
-JST_PH_B4B-PH-SM4-TB_04x2.00mm_Straight
-JST PH series connector, B4B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-6
-4
-JST
-JST_PH_B5B-PH-K_05x2.00mm_Straight
-JST PH series connector, B5B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-5
-5
-JST
-JST_PH_B5B-PH-SM4-TB_05x2.00mm_Straight
-JST PH series connector, B5B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-7
-5
-JST
-JST_PH_B6B-PH-K_06x2.00mm_Straight
-JST PH series connector, B6B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-6
-6
-JST
-JST_PH_B6B-PH-SM4-TB_06x2.00mm_Straight
-JST PH series connector, B6B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-8
-6
-JST
-JST_PH_B7B-PH-K_07x2.00mm_Straight
-JST PH series connector, B7B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-7
-7
-JST
-JST_PH_B7B-PH-SM4-TB_07x2.00mm_Straight
-JST PH series connector, B7B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-9
-7
-JST
-JST_PH_B8B-PH-K_08x2.00mm_Straight
-JST PH series connector, B8B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-8
-8
-JST
-JST_PH_B8B-PH-SM4-TB_08x2.00mm_Straight
-JST PH series connector, B8B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-10
-8
-JST
-JST_PH_B9B-PH-K_09x2.00mm_Straight
-JST PH series connector, B9B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-9
-9
-JST
-JST_PH_B9B-PH-SM4-TB_09x2.00mm_Straight
-JST PH series connector, B9B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-11
-9
-JST
-JST_PH_B10B-PH-K_10x2.00mm_Straight
-JST PH series connector, B10B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-10
-10
-JST
-JST_PH_B10B-PH-SM4-TB_10x2.00mm_Straight
-JST PH series connector, B10B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-12
-10
-JST
-JST_PH_B11B-PH-K_11x2.00mm_Straight
-JST PH series connector, B11B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-11
-11
-JST
-JST_PH_B11B-PH-SM4-TB_11x2.00mm_Straight
-JST PH series connector, B11B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-13
-11
-JST
-JST_PH_B12B-PH-K_12x2.00mm_Straight
-JST PH series connector, B12B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-12
-12
-JST
-JST_PH_B12B-PH-SM4-TB_12x2.00mm_Straight
-JST PH series connector, B12B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-14
-12
-JST
-JST_PH_B13B-PH-K_13x2.00mm_Straight
-JST PH series connector, B13B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-13
-13
-JST
-JST_PH_B13B-PH-SM4-TB_13x2.00mm_Straight
-JST PH series connector, B13B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-15
-13
-JST
-JST_PH_B14B-PH-K_14x2.00mm_Straight
-JST PH series connector, B14B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-14
-14
-JST
-JST_PH_B14B-PH-SM4-TB_14x2.00mm_Straight
-JST PH series connector, B14B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-16
-14
-JST
-JST_PH_B15B-PH-K_15x2.00mm_Straight
-JST PH series connector, B15B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-15
-15
-JST
-JST_PH_B15B-PH-SM4-TB_15x2.00mm_Straight
-JST PH series connector, B15B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-17
-15
-JST
-JST_PH_B16B-PH-K_16x2.00mm_Straight
-JST PH series connector, B16B-PH-K, top entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-16
-16
-JST
-JST_PH_B16B-PH-SM4-TB_16x2.00mm_Straight
-JST PH series connector, B16B-PH-SM4-TB, top entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-18
-16
-JST
-JST_PH_S2B-PH-K_02x2.00mm_Angled
-JST PH series connector, S2B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-2
-2
-JST
-JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled
-JST PH series connector, S2B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-4
-2
-JST
-JST_PH_S3B-PH-K_03x2.00mm_Angled
-JST PH series connector, S3B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-3
-3
-JST
-JST_PH_S3B-PH-SM4-TB_03x2.00mm_Angled
-JST PH series connector, S3B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-5
-3
-JST
-JST_PH_S4B-PH-K_04x2.00mm_Angled
-JST PH series connector, S4B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-4
-4
-JST
-JST_PH_S4B-PH-SM4-TB_04x2.00mm_Angled
-JST PH series connector, S4B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-6
-4
-JST
-JST_PH_S5B-PH-K_05x2.00mm_Angled
-JST PH series connector, S5B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-5
-5
-JST
-JST_PH_S5B-PH-SM4-TB_05x2.00mm_Angled
-JST PH series connector, S5B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-7
-5
-JST
-JST_PH_S6B-PH-K_06x2.00mm_Angled
-JST PH series connector, S6B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-6
-6
-JST
-JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled
-JST PH series connector, S6B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-8
-6
-JST
-JST_PH_S7B-PH-K_07x2.00mm_Angled
-JST PH series connector, S7B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-7
-7
-JST
-JST_PH_S7B-PH-SM4-TB_07x2.00mm_Angled
-JST PH series connector, S7B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-9
-7
-JST
-JST_PH_S8B-PH-K_08x2.00mm_Angled
-JST PH series connector, S8B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-8
-8
-JST
-JST_PH_S8B-PH-SM4-TB_08x2.00mm_Angled
-JST PH series connector, S8B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-10
-8
-JST
-JST_PH_S9B-PH-K_09x2.00mm_Angled
-JST PH series connector, S9B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-9
-9
-JST
-JST_PH_S9B-PH-SM4-TB_09x2.00mm_Angled
-JST PH series connector, S9B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-11
-9
-JST
-JST_PH_S10B-PH-K_10x2.00mm_Angled
-JST PH series connector, S10B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-10
-10
-JST
-JST_PH_S10B-PH-SM4-TB_10x2.00mm_Angled
-JST PH series connector, S10B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-12
-10
-JST
-JST_PH_S11B-PH-K_11x2.00mm_Angled
-JST PH series connector, S11B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-11
-11
-JST
-JST_PH_S11B-PH-SM4-TB_11x2.00mm_Angled
-JST PH series connector, S11B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-13
-11
-JST
-JST_PH_S12B-PH-K_12x2.00mm_Angled
-JST PH series connector, S12B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-12
-12
-JST
-JST_PH_S12B-PH-SM4-TB_12x2.00mm_Angled
-JST PH series connector, S12B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-14
-12
-JST
-JST_PH_S13B-PH-K_13x2.00mm_Angled
-JST PH series connector, S13B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-13
-13
-JST
-JST_PH_S13B-PH-SM4-TB_13x2.00mm_Angled
-JST PH series connector, S13B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-15
-13
-JST
-JST_PH_S14B-PH-K_14x2.00mm_Angled
-JST PH series connector, S14B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-14
-14
-JST
-JST_PH_S14B-PH-SM4-TB_14x2.00mm_Angled
-JST PH series connector, S14B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-16
-14
-JST
-JST_PH_S15B-PH-K_15x2.00mm_Angled
-JST PH series connector, S15B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-15
-15
-JST
-JST_PH_S15B-PH-SM4-TB_15x2.00mm_Angled
-JST PH series connector, S15B-PH-SM4-TB, side entry type, surface mount, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-17
-15
-JST
-JST_PH_S16B-PH-K_16x2.00mm_Angled
-JST PH series connector, S16B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
-connector jst ph
-0
-16
-16
-JST
-JST_PUD_B08B-PUDSS_2x04x2.00mm_Straight
-JST PUD series connector, dual row, B08B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-8
-8
-JST
-JST_PUD_B10B-PUDSS_2x05x2.00mm_Straight
-JST PUD series connector, dual row, B10B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-10
-10
-JST
-JST_PUD_B12B-PUDSS_2x06x2.00mm_Straight
-JST PUD series connector, dual row, B12B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-12
-12
-JST
-JST_PUD_B14B-PUDSS_2x07x2.00mm_Straight
-JST PUD series connector, dual row, B14B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-14
-14
-JST
-JST_PUD_B16B-PUDSS_2x08x2.00mm_Straight
-JST PUD series connector, dual row, B16B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-16
-16
-JST
-JST_PUD_B18B-PUDSS_2x09x2.00mm_Straight
-JST PUD series connector, dual row, B18B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-18
-18
-JST
-JST_PUD_B20B-PUDSS_2x10x2.00mm_Straight
-JST PUD series connector, dual row, B20B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-20
-20
-JST
-JST_PUD_B22B-PUDSS_2x11x2.00mm_Straight
-JST PUD series connector, dual row, B22B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-22
-22
-JST
-JST_PUD_B24B-PUDSS_2x12x2.00mm_Straight
-JST PUD series connector, dual row, B24B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-24
-24
-JST
-JST_PUD_B26B-PUDSS_2x13x2.00mm_Straight
-JST PUD series connector, dual row, B26B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-26
-26
-JST
-JST_PUD_B28B-PUDSS_2x14x2.00mm_Straight
-JST PUD series connector, dual row, B28B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-28
-28
-JST
-JST_PUD_B30B-PUDSS_2x15x2.00mm_Straight
-JST PUD series connector, dual row, B30B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-30
-30
-JST
-JST_PUD_B32B-PUDSS_2x16x2.00mm_Straight
-JST PUD series connector, dual row, B32B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-32
-32
-JST
-JST_PUD_B34B-PUDSS_2x17x2.00mm_Straight
-JST PUD series connector, dual row, B34B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-34
-34
-JST
-JST_PUD_B36B-PUDSS_2x18x2.00mm_Straight
-JST PUD series connector, dual row, B36B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-36
-36
-JST
-JST_PUD_B38B-PUDSS_2x19x2.00mm_Straight
-JST PUD series connector, dual row, B38B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-38
-38
-JST
-JST_PUD_B40B-PUDSS_2x20x2.00mm_Straight
-JST PUD series connector, dual row, B40B-PUDSS, top entry type, through hole
-connector jst pud vertical
-0
-40
-40
-JST
-JST_PUD_S08B-PUDSS-1_2x04x2.00mm_Angled
-JST PUD series connector, dual row, S08B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-8
-8
-JST
-JST_PUD_S10B-PUDSS-1_2x05x2.00mm_Angled
-JST PUD series connector, dual row, S10B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-10
-10
-JST
-JST_PUD_S12B-PUDSS-1_2x06x2.00mm_Angled
-JST PUD series connector, dual row, S12B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-12
-12
-JST
-JST_PUD_S14B-PUDSS-1_2x07x2.00mm_Angled
-JST PUD series connector, dual row, S14B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-14
-14
-JST
-JST_PUD_S16B-PUDSS-1_2x08x2.00mm_Angled
-JST PUD series connector, dual row, S16B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-16
-16
-JST
-JST_PUD_S18B-PUDSS-1_2x09x2.00mm_Angled
-JST PUD series connector, dual row, S18B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-18
-18
-JST
-JST_PUD_S20B-PUDSS-1_2x10x2.00mm_Angled
-JST PUD series connector, dual row, S20B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-20
-20
-JST
-JST_PUD_S22B-PUDSS-1_2x11x2.00mm_Angled
-JST PUD series connector, dual row, S22B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-22
-22
-JST
-JST_PUD_S24B-PUDSS-1_2x12x2.00mm_Angled
-JST PUD series connector, dual row, S24B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-24
-24
-JST
-JST_PUD_S26B-PUDSS-1_2x13x2.00mm_Angled
-JST PUD series connector, dual row, S26B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-26
-26
-JST
-JST_PUD_S28B-PUDSS-1_2x14x2.00mm_Angled
-JST PUD series connector, dual row, S28B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-28
-28
-JST
-JST_PUD_S30B-PUDSS-1_2x15x2.00mm_Angled
-JST PUD series connector, dual row, S30B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-30
-30
-JST
-JST_PUD_S32B-PUDSS-1_2x16x2.00mm_Angled
-JST PUD series connector, dual row, S32B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-32
-32
-JST
-JST_PUD_S34B-PUDSS-1_2x17x2.00mm_Angled
-JST PUD series connector, dual row, S34B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-34
-34
-JST
-JST_PUD_S36B-PUDSS-1_2x18x2.00mm_Angled
-JST PUD series connector, dual row, S36B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-36
-36
-JST
-JST_PUD_S38B-PUDSS-1_2x19x2.00mm_Angled
-JST PUD series connector, dual row, S38B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-38
-38
-JST
-JST_PUD_S40B-PUDSS-1_2x20x2.00mm_Angled
-JST PUD series connector, dual row, S40B-PUDSS-1, side entry type, through hole
-connector jst pud horizontal
-0
-40
-40
-JST
-JST_SFH_SM02B-SFHRS-TF_02x1.80mm_Angled
-JST SFH series crimp connector, SMT, 1.80mm pitch
-JST SFT SMT crimp connector
-0
-4
-2
-JST
-JST_SHL_SM02B-SHLS-TF_02x1.00mm_Angled
-JST SHL series connector, SM02B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-4
-2
-JST
-JST_SHL_SM05B-SHLS-TF_05x1.00mm_Angled
-JST SHL series connector, SM05B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-7
-5
-JST
-JST_SHL_SM06B-SHLS-TF_06x1.00mm_Angled
-JST SHL series connector, SM06B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-8
-6
-JST
-JST_SHL_SM07B-SHLS-TF_07x1.00mm_Angled
-JST SHL series connector, SM07B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-9
-7
-JST
-JST_SHL_SM08B-SHLS-TF_08x1.00mm_Angled
-JST SHL series connector, SM08B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-10
-8
-JST
-JST_SHL_SM10B-SHLS-TF_10x1.00mm_Angled
-JST SHL series connector, SM10B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-12
-10
-JST
-JST_SHL_SM11B-SHLS-TF_11x1.00mm_Angled
-JST SHL series connector, SM11B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-13
-11
-JST
-JST_SHL_SM12B-SHLS-TF_12x1.00mm_Angled
-JST SHL series connector, SM12B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-14
-12
-JST
-JST_SHL_SM14B-SHLS-TF_14x1.00mm_Angled
-JST SHL series connector, SM14B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-16
-14
-JST
-JST_SHL_SM16B-SHLS-TF_16x1.00mm_Angled
-JST SHL series connector, SM16B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-18
-16
-JST
-JST_SHL_SM20B-SHLS-TF_20x1.00mm_Angled
-JST SHL series connector, SM20B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-22
-20
-JST
-JST_SHL_SM22B-SHLS-TF_22x1.00mm_Angled
-JST SHL series connector, SM22B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-24
-22
-JST
-JST_SHL_SM26B-SHLS-TF_26x1.00mm_Angled
-JST SHL series connector, SM26B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-28
-26
-JST
-JST_SHL_SM30B-SHLS-TF_30x1.00mm_Angled
-JST SHL series connector, SM30B-SHLS-TF
-connector jst SHL SMT side horizontal entry 1.0mm pitch
-0
-32
-30
-JST
-JST_SH_BM02B-SRSS-TB_02x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-4
-2
-JST
-JST_SH_BM03B-SRSS-TB_03x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-5
-3
-JST
-JST_SH_BM04B-SRSS-TB_04x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-6
-4
-JST
-JST_SH_BM05B-SRSS-TB_05x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-7
-5
-JST
-JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-8
-6
-JST
-JST_SH_BM07B-SRSS-TB_07x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-9
-7
-JST
-JST_SH_BM08B-SRSS-TB_08x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-10
-8
-JST
-JST_SH_BM09B-SRSS-TB_09x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-11
-9
-JST
-JST_SH_BM10B-SRSS-TB_10x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-12
-10
-JST
-JST_SH_BM11B-SRSS-TB_11x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-13
-11
-JST
-JST_SH_BM12B-SRSS-TB_12x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-14
-12
-JST
-JST_SH_BM13B-SRSS-TB_13x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-15
-13
-JST
-JST_SH_BM14B-SRSS-TB_14x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-16
-14
-JST
-JST_SH_BM15B-SRSS-TB_15x1.00mm_Straight
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-17
-15
-JST
-JST_SH_SM02B-SRSS-TB_02x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-4
-2
-JST
-JST_SH_SM03B-SRSS-TB_03x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-5
-3
-JST
-JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-6
-4
-JST
-JST_SH_SM05B-SRSS-TB_05x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-7
-5
-JST
-JST_SH_SM06B-SRSS-TB_06x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-8
-6
-JST
-JST_SH_SM07B-SRSS-TB_07x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-9
-7
-JST
-JST_SH_SM08B-SRSS-TB_08x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-10
-8
-JST
-JST_SH_SM09B-SRSS-TB_09x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-11
-9
-JST
-JST_SH_SM10B-SRSS-TB_10x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-12
-10
-JST
-JST_SH_SM11B-SRSS-TB_11x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-13
-11
-JST
-JST_SH_SM12B-SRSS-TB_12x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-14
-12
-JST
-JST_SH_SM13B-SRSS-TB_13x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-15
-13
-JST
-JST_SH_SM14B-SRSS-TB_14x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-16
-14
-JST
-JST_SH_SM15B-SRSS-TB_15x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-17
-15
-JST
-JST_SH_SM20B-SRSS-TB_20x1.00mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-connector jst sh
-0
-22
-20
-JST
-JST_SUR_SM02B-SURS-TF_02x0.80mm_Angled
-JST SUR series connector, SM02B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-4
-2
-JST
-JST_SUR_SM03B-SURS-TF_03x0.80mm_Angled
-JST SUR series connector, SM03B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-5
-3
-JST
-JST_SUR_SM04B-SURS-TF_04x0.80mm_Angled
-JST SUR series connector, SM04B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-6
-4
-JST
-JST_SUR_SM05B-SURS-TF_05x0.80mm_Angled
-JST SUR series connector, SM05B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-7
-5
-JST
-JST_SUR_SM06B-SURS-TF_06x0.80mm_Angled
-JST SUR series connector, SM06B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-8
-6
-JST
-JST_SUR_SM08B-SURS-TF_08x0.80mm_Angled
-JST SUR series connector, SM08B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-10
-8
-JST
-JST_SUR_SM10B-SURS-TF_10x0.80mm_Angled
-JST SUR series connector, SM10B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-12
-10
-JST
-JST_SUR_SM12B-SURS-TF_12x0.80mm_Angled
-JST SUR series connector, SM12B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-14
-12
-JST
-JST_SUR_SM14B-SURS-TF_14x0.80mm_Angled
-JST SUR series connector, SM14B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-16
-14
-JST
-JST_SUR_SM15B-SURS-TF_15x0.80mm_Angled
-JST SUR series connector, SM15B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-17
-15
-JST
-JST_SUR_SM16B-SURS-TF_16x0.80mm_Angled
-JST SUR series connector, SM16B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-18
-16
-JST
-JST_SUR_SM17B-SURS-TF_17x0.80mm_Angled
-JST SUR series connector, SM17B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-19
-17
-JST
-JST_SUR_SM20B-SURS-TF_20x0.80mm_Angled
-JST SUR series connector, SM20B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-22
-20
-JST
-JST_SUR_SM22B-SURS-TF_22x0.80mm_Angled
-JST SUR series connector, SM22B-SURS-TF, side entry, 0.80mm pitch
-connector jst SUR SMT side horizontal entry 0.80mm pitch
-0
-24
-22
-JST
-JST_VH_B2P-VH-B_2x3.96mm_Vertical
-JST VH PBT series connector, B2P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-2
-2
-JST
-JST_VH_B2P-VH-FB-B_2x3.96mm_Vertical
-JST VH series connector, B2P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-2
-2
-JST
-JST_VH_B2P-VH_2x3.96mm_Vertical
-JST VH series connector, B2P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-2
-2
-JST
-JST_VH_B2PS-VH_2x2x3.96mm_Horizontal
-JST VH series connector, B2PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-2
-2
-JST
-JST_VH_B3P-VH-B_3x3.96mm_Vertical
-JST VH PBT series connector, B3P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-3
-3
-JST
-JST_VH_B3P-VH-FB-B_3x3.96mm_Vertical
-JST VH series connector, B3P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-3
-3
-JST
-JST_VH_B3P-VH_3x3.96mm_Vertical
-JST VH series connector, B3P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-3
-3
-JST
-JST_VH_B3PS-VH_2x3x3.96mm_Horizontal
-JST VH series connector, B3PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-3
-3
-JST
-JST_VH_B4P-VH-B_4x3.96mm_Vertical
-JST VH PBT series connector, B4P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-4
-4
-JST
-JST_VH_B4P-VH-FB-B_4x3.96mm_Vertical
-JST VH series connector, B4P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-4
-4
-JST
-JST_VH_B4P-VH_4x3.96mm_Vertical
-JST VH series connector, B4P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-4
-4
-JST
-JST_VH_B4PS-VH_2x4x3.96mm_Horizontal
-JST VH series connector, B4PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-4
-4
-JST
-JST_VH_B5P-VH-B_5x3.96mm_Vertical
-JST VH PBT series connector, B5P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-5
-5
-JST
-JST_VH_B5P-VH-FB-B_5x3.96mm_Vertical
-JST VH series connector, B5P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-5
-5
-JST
-JST_VH_B5P-VH_5x3.96mm_Vertical
-JST VH series connector, B5P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-5
-5
-JST
-JST_VH_B5PS-VH_2x5x3.96mm_Horizontal
-JST VH series connector, B5PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-5
-5
-JST
-JST_VH_B6P-VH-B_6x3.96mm_Vertical
-JST VH PBT series connector, B6P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-6
-6
-JST
-JST_VH_B6P-VH-FB-B_6x3.96mm_Vertical
-JST VH series connector, B6P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-6
-6
-JST
-JST_VH_B6P-VH_6x3.96mm_Vertical
-JST VH series connector, B6P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-6
-6
-JST
-JST_VH_B6PS-VH_2x6x3.96mm_Horizontal
-JST VH series connector, B6PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-6
-6
-JST
-JST_VH_B7P-VH-B_7x3.96mm_Vertical
-JST VH PBT series connector, B7P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-7
-7
-JST
-JST_VH_B7P-VH-FB-B_7x3.96mm_Vertical
-JST VH series connector, B7P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-7
-7
-JST
-JST_VH_B7P-VH_7x3.96mm_Vertical
-JST VH series connector, B7P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-7
-7
-JST
-JST_VH_B7PS-VH_2x7x3.96mm_Horizontal
-JST VH series connector, B7PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-7
-7
-JST
-JST_VH_B8P-VH-B_8x3.96mm_Vertical
-JST VH PBT series connector, B8P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-8
-8
-JST
-JST_VH_B8P-VH-FB-B_8x3.96mm_Vertical
-JST VH series connector, B8P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-8
-8
-JST
-JST_VH_B8P-VH_8x3.96mm_Vertical
-JST VH series connector, B8P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-8
-8
-JST
-JST_VH_B8PS-VH_2x8x3.96mm_Horizontal
-JST VH series connector, B8PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-8
-8
-JST
-JST_VH_B9P-VH-B_9x3.96mm_Vertical
-JST VH PBT series connector, B9P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-9
-9
-JST
-JST_VH_B9P-VH-FB-B_9x3.96mm_Vertical
-JST VH series connector, B9P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-9
-9
-JST
-JST_VH_B9P-VH_9x3.96mm_Vertical
-JST VH series connector, B9P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-9
-9
-JST
-JST_VH_B9PS-VH_2x9x3.96mm_Horizontal
-JST VH series connector, B9PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-9
-9
-JST
-JST_VH_B10P-VH-B_10x3.96mm_Vertical
-JST VH PBT series connector, B10P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-10
-10
-JST
-JST_VH_B10P-VH-FB-B_10x3.96mm_Vertical
-JST VH series connector, B10P-VH-FB-B, 3.96mm pitch, top entry type, shrouded, through hole
-connector jst vh shrounded vertical
-0
-10
-10
-JST
-JST_VH_B10P-VH_10x3.96mm_Vertical
-JST VH series connector, B10P-VH, 3.96mm pitch, top entry type, through hole
-connector jst vh vertical
-0
-10
-10
-JST
-JST_VH_B10PS-VH_2x10x3.96mm_Horizontal
-JST VH series connector, B10PS-VH, side entry type, through hole
-connector jst vh horizontal
-0
-10
-10
-JST
-JST_VH_B11P-VH-B_11x3.96mm_Vertical
-JST VH PBT series connector, B11P-VH-B, 3.96mm pitch, top entry type, through hole
-connector jst vh pbt vertical
-0
-11
-11
-JST
-JST_VH_S2P-VH_2x2x3.96mm_Horizontal
-JST VH series connector, S2P-VH, side entry type, PCB stabilizer, through hole
-connector jst vh stabilizer horizontal
-0
-2
-2
-JST
-JST_VH_S3P-VH_2x3x3.96mm_Horizontal
-JST VH series connector, S3P-VH, side entry type, PCB stabilizer, through hole
-connector jst vh stabilizer horizontal
-0
-3
-3
-JST
-JST_VH_S4P-VH_2x4x3.96mm_Horizontal
-JST VH series connector, S4P-VH, side entry type, PCB stabilizer, through hole
-connector jst vh stabilizer horizontal
-0
-4
-4
-JST
-JST_VH_S5P-VH_2x5x3.96mm_Horizontal
-JST VH series connector, S5P-VH, side entry type, PCB stabilizer, through hole
-connector jst vh stabilizer horizontal
-0
-5
-5
-JST
-JST_VH_S6P-VH_2x6x3.96mm_Horizontal
-JST VH series connector, S6P-VH, side entry type, PCB stabilizer, through hole
-connector jst vh stabilizer horizontal
-0
-6
-6
-JST
-JST_VH_S7P-VH_2x7x3.96mm_Horizontal
-JST VH series connector, S7P-VH, side entry type, PCB stabilizer, through hole
-connector jst vh stabilizer horizontal
-0
-7
-7
-JST
-JST_XAG_SM05B-XAGKS-BN-TB_5x2.50mm_Angled
-http://www.jst-mfg.com/product/pdf/eng/eXAG.pdf
-jst xag
-0
-7
-5
-JST
-JST_XH_B02B-XH-A_02x2.50mm_Straight
-JST XH series connector, B02B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-2
-2
-JST
-JST_XH_B03B-XH-A_03x2.50mm_Straight
-JST XH series connector, B03B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-3
-3
-JST
-JST_XH_B04B-XH-A_04x2.50mm_Straight
-JST XH series connector, B04B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-4
-4
-JST
-JST_XH_B05B-XH-A_05x2.50mm_Straight
-JST XH series connector, B05B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-5
-5
-JST
-JST_XH_B06B-XH-A_06x2.50mm_Straight
-JST XH series connector, B06B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-6
-6
-JST
-JST_XH_B07B-XH-A_07x2.50mm_Straight
-JST XH series connector, B07B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-7
-7
-JST
-JST_XH_B08B-XH-A_08x2.50mm_Straight
-JST XH series connector, B08B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-8
-8
-JST
-JST_XH_B09B-XH-A_09x2.50mm_Straight
-JST XH series connector, B09B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-9
-9
-JST
-JST_XH_B10B-XH-A_10x2.50mm_Straight
-JST XH series connector, B10B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-10
-10
-JST
-JST_XH_B11B-XH-A_11x2.50mm_Straight
-JST XH series connector, B11B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-11
-11
-JST
-JST_XH_B12B-XH-A_12x2.50mm_Straight
-JST XH series connector, B12B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-12
-12
-JST
-JST_XH_B13B-XH-A_13x2.50mm_Straight
-JST XH series connector, B13B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-13
-13
-JST
-JST_XH_B14B-XH-A_14x2.50mm_Straight
-JST XH series connector, B14B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-14
-14
-JST
-JST_XH_B15B-XH-A_15x2.50mm_Straight
-JST XH series connector, B15B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-15
-15
-JST
-JST_XH_B16B-XH-A_16x2.50mm_Straight
-JST XH series connector, B16B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-16
-16
-JST
-JST_XH_B20B-XH-A_20x2.50mm_Straight
-JST XH series connector, B20B-XH-A, top entry type, through hole
-connector jst xh tht top vertical 2.50mm
-0
-20
-20
-JST
-JST_XH_S02B-XH-A_02x2.50mm_Angled
-JST XH series connector, S02B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-2
-2
-JST
-JST_XH_S03B-XH-A_03x2.50mm_Angled
-JST XH series connector, S03B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-3
-3
-JST
-JST_XH_S04B-XH-A_04x2.50mm_Angled
-JST XH series connector, S04B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-4
-4
-JST
-JST_XH_S05B-XH-A_05x2.50mm_Angled
-JST XH series connector, S05B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-5
-5
-JST
-JST_XH_S06B-XH-A_06x2.50mm_Angled
-JST XH series connector, S06B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-6
-6
-JST
-JST_XH_S07B-XH-A_07x2.50mm_Angled
-JST XH series connector, S07B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-7
-7
-JST
-JST_XH_S08B-XH-A_08x2.50mm_Angled
-JST XH series connector, S08B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-8
-8
-JST
-JST_XH_S09B-XH-A_09x2.50mm_Angled
-JST XH series connector, S09B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-9
-9
-JST
-JST_XH_S10B-XH-A_10x2.50mm_Angled
-JST XH series connector, S10B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-10
-10
-JST
-JST_XH_S11B-XH-A_11x2.50mm_Angled
-JST XH series connector, S11B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-11
-11
-JST
-JST_XH_S12B-XH-A_12x2.50mm_Angled
-JST XH series connector, S12B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-12
-12
-JST
-JST_XH_S13B-XH-A_13x2.50mm_Angled
-JST XH series connector, S13B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-13
-13
-JST
-JST_XH_S14B-XH-A_14x2.50mm_Angled
-JST XH series connector, S14B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-14
-14
-JST
-JST_XH_S15B-XH-A_15x2.50mm_Angled
-JST XH series connector, S15B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-15
-15
-JST
-JST_XH_S16B-XH-A_16x2.50mm_Angled
-JST XH series connector, S16B-XH-A, side entry type, through hole
-connector jst xh tht side horizontal angled 2.50mm
-0
-16
-16
-JST
-JST_ZE_B02B-ZESK-1D_02x1.5mm_Straight
-JST ZE series connector, B02B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-2
-2
-JST
-JST_ZE_B03B-ZESK-1D_03x1.5mm_Straight
-JST ZE series connector, B03B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-3
-3
-JST
-JST_ZE_B03B-ZESK-D_03x1.5mm_Straight
-JST ZE series connector, B03B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-3
-3
-JST
-JST_ZE_B04B-ZESK-1D_04x1.5mm_Straight
-JST ZE series connector, B04B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-4
-4
-JST
-JST_ZE_B04B-ZESK-D_04x1.5mm_Straight
-JST ZE series connector, B04B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-4
-4
-JST
-JST_ZE_B05B-ZESK-1D_05x1.5mm_Straight
-JST ZE series connector, B05B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-5
-5
-JST
-JST_ZE_B05B-ZESK-D_05x1.5mm_Straight
-JST ZE series connector, B05B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-5
-5
-JST
-JST_ZE_B06B-ZESK-1D_06x1.5mm_Straight
-JST ZE series connector, B06B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-6
-6
-JST
-JST_ZE_B06B-ZESK-D_06x1.5mm_Straight
-JST ZE series connector, B06B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-6
-6
-JST
-JST_ZE_B07B-ZESK-1D_07x1.5mm_Straight
-JST ZE series connector, B07B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-7
-7
-JST
-JST_ZE_B07B-ZESK-D_07x1.5mm_Straight
-JST ZE series connector, B07B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-7
-7
-JST
-JST_ZE_B08B-ZESK-1D_08x1.5mm_Straight
-JST ZE series connector, B08B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-8
-8
-JST
-JST_ZE_B08B-ZESK-D_08x1.5mm_Straight
-JST ZE series connector, B08B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-8
-8
-JST
-JST_ZE_B09B-ZESK-1D_09x1.5mm_Straight
-JST ZE series connector, B09B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-9
-9
-JST
-JST_ZE_B09B-ZESK-D_09x1.5mm_Straight
-JST ZE series connector, B09B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-9
-9
-JST
-JST_ZE_B10B-ZESK-1D_10x1.5mm_Straight
-JST ZE series connector, B10B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-10
-10
-JST
-JST_ZE_B10B-ZESK-D_10x1.5mm_Straight
-JST ZE series connector, B10B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-10
-10
-JST
-JST_ZE_B11B-ZESK-1D_11x1.5mm_Straight
-JST ZE series connector, B11B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-11
-11
-JST
-JST_ZE_B11B-ZESK-D_11x1.5mm_Straight
-JST ZE series connector, B11B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-11
-11
-JST
-JST_ZE_B12B-ZESK-1D_12x1.5mm_Straight
-JST ZE series connector, B12B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-12
-12
-JST
-JST_ZE_B12B-ZESK-D_12x1.5mm_Straight
-JST ZE series connector, B12B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-12
-12
-JST
-JST_ZE_B13B-ZESK-1D_13x1.5mm_Straight
-JST ZE series connector, B13B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-13
-13
-JST
-JST_ZE_B13B-ZESK-D_13x1.5mm_Straight
-JST ZE series connector, B13B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-13
-13
-JST
-JST_ZE_B14B-ZESK-1D_14x1.5mm_Straight
-JST ZE series connector, B14B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-14
-14
-JST
-JST_ZE_B14B-ZESK-D_14x1.5mm_Straight
-JST ZE series connector, B14B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-14
-14
-JST
-JST_ZE_B15B-ZESK-1D_15x1.5mm_Straight
-JST ZE series connector, B15B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-15
-15
-JST
-JST_ZE_B15B-ZESK-D_15x1.5mm_Straight
-JST ZE series connector, B15B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-15
-15
-JST
-JST_ZE_B16B-ZESK-1D_16x1.5mm_Straight
-JST ZE series connector, B16B-ZESK-1D, 1.50mm pitch, top entry through hole with boss
-connector jst ze top vertical straight tht through thru hole
-0
-16
-16
-JST
-JST_ZE_B16B-ZESK-D_16x1.5mm_Straight
-JST ZE series connector, B16B-ZESK-D, 1.50mm pitch, top entry through hole
-connector jst ze top vertical straight tht through thru hole
-0
-16
-16
-JST
-JST_ZE_BM02B-ZESS-TBT_02x1.5mm_Straight
-JST ZE series connector, BM02B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-4
-2
-JST
-JST_ZE_BM03B-ZESS-TBT_03x1.5mm_Straight
-JST ZE series connector, BM03B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-5
-3
-JST
-JST_ZE_BM04B-ZESS-TBT_04x1.5mm_Straight
-JST ZE series connector, BM04B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-6
-4
-JST
-JST_ZE_BM05B-ZESS-TBT_05x1.5mm_Straight
-JST ZE series connector, BM05B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-7
-5
-JST
-JST_ZE_BM06B-ZESS-TBT_06x1.5mm_Straight
-JST ZE series connector, BM06B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-8
-6
-JST
-JST_ZE_BM07B-ZESS-TBT_07x1.5mm_Straight
-JST ZE series connector, BM07B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-9
-7
-JST
-JST_ZE_BM08B-ZESS-TBT_08x1.5mm_Straight
-JST ZE series connector, BM08B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-10
-8
-JST
-JST_ZE_BM09B-ZESS-TBT_09x1.5mm_Straight
-JST ZE series connector, BM09B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-11
-9
-JST
-JST_ZE_BM10B-ZESS-TBT_10x1.5mm_Straight
-JST ZE series connector, BM10B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-12
-10
-JST
-JST_ZE_BM11B-ZESS-TBT_11x1.5mm_Straight
-JST ZE series connector, BM11B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-13
-11
-JST
-JST_ZE_BM12B-ZESS-TBT_12x1.5mm_Straight
-JST ZE series connector, BM12B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-14
-12
-JST
-JST_ZE_BM13B-ZESS-TBT_13x1.5mm_Straight
-JST ZE series connector, BM13B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-15
-13
-JST
-JST_ZE_BM14B-ZESS-TBT_14x1.5mm_Straight
-JST ZE series connector, BM14B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-16
-14
-JST
-JST_ZE_BM15B-ZESS-TBT_15x1.5mm_Straight
-JST ZE series connector, BM15B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-17
-15
-JST
-JST_ZE_BM16B-ZESS-TBT_16x1.5mm_Straight
-JST ZE series connector, BM16B-ZESS-TBT, 1.50mm pitch, top entry surface mount
-connector jst ze top vertical straight smt surface mount
-0
-18
-16
-JST
-JST_ZE_S02B-ZESK-2D_02x1.5mm_Angled
-JST ZE series connector, S02B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-2
-2
-JST
-JST_ZE_S03B-ZESK-2D_03x1.5mm_Angled
-JST ZE series connector, S03B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-3
-3
-JST
-JST_ZE_S04B-ZESK-2D_04x1.5mm_Angled
-JST ZE series connector, S04B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-4
-4
-JST
-JST_ZE_S05B-ZESK-2D_05x1.5mm_Angled
-JST ZE series connector, S05B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-5
-5
-JST
-JST_ZE_S06B-ZESK-2D_06x1.5mm_Angled
-JST ZE series connector, S06B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-6
-6
-JST
-JST_ZE_S07B-ZESK-2D_07x1.5mm_Angled
-JST ZE series connector, S07B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-7
-7
-JST
-JST_ZE_S08B-ZESK-2D_08x1.5mm_Angled
-JST ZE series connector, S08B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-8
-8
-JST
-JST_ZE_S09B-ZESK-2D_09x1.5mm_Angled
-JST ZE series connector, S09B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-9
-9
-JST
-JST_ZE_S10B-ZESK-2D_10x1.5mm_Angled
-JST ZE series connector, S10B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-10
-10
-JST
-JST_ZE_S11B-ZESK-2D_11x1.5mm_Angled
-JST ZE series connector, S11B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-11
-11
-JST
-JST_ZE_S12B-ZESK-2D_12x1.5mm_Angled
-JST ZE series connector, S12B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-12
-12
-JST
-JST_ZE_S13B-ZESK-2D_13x1.5mm_Angled
-JST ZE series connector, S13B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-13
-13
-JST
-JST_ZE_S14B-ZESK-2D_14x1.5mm_Angled
-JST ZE series connector, S14B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-14
-14
-JST
-JST_ZE_S15B-ZESK-2D_15x1.5mm_Angled
-JST ZE series connector, S15B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-15
-15
-JST
-JST_ZE_S16B-ZESK-2D_16x1.5mm_Angled
-JST ZE series connector, S16B-ZESK-2D, 1.50mm pitch, side entry through hole
-connector jst ze side horizontal angled tht through thru hole
-0
-16
-16
-JST
-JST_ZE_SM02B-ZESS-TB_02x1.5mm_Angled
-JST ZE series connector, SM02B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-4
-2
-JST
-JST_ZE_SM03B-ZESS-TB_03x1.5mm_Angled
-JST ZE series connector, SM03B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-5
-3
-JST
-JST_ZE_SM04B-ZESS-TB_04x1.5mm_Angled
-JST ZE series connector, SM04B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-6
-4
-JST
-JST_ZE_SM05B-ZESS-TB_05x1.5mm_Angled
-JST ZE series connector, SM05B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-7
-5
-JST
-JST_ZE_SM06B-ZESS-TB_06x1.5mm_Angled
-JST ZE series connector, SM06B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-8
-6
-JST
-JST_ZE_SM07B-ZESS-TB_07x1.5mm_Angled
-JST ZE series connector, SM07B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-9
-7
-JST
-JST_ZE_SM08B-ZESS-TB_08x1.5mm_Angled
-JST ZE series connector, SM08B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-10
-8
-JST
-JST_ZE_SM09B-ZESS-TB_09x1.5mm_Angled
-JST ZE series connector, SM09B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-11
-9
-JST
-JST_ZE_SM10B-ZESS-TB_10x1.5mm_Angled
-JST ZE series connector, SM10B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-12
-10
-JST
-JST_ZE_SM11B-ZESS-TB_11x1.5mm_Angled
-JST ZE series connector, SM11B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-13
-11
-JST
-JST_ZE_SM12B-ZESS-TB_12x1.5mm_Angled
-JST ZE series connector, SM12B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-14
-12
-JST
-JST_ZE_SM13B-ZESS-TB_13x1.5mm_Angled
-JST ZE series connector, SM13B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-15
-13
-JST
-JST_ZE_SM14B-ZESS-TB_14x1.5mm_Angled
-JST ZE series connector, SM14B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-16
-14
-JST
-JST_ZE_SM15B-ZESS-TB_15x1.5mm_Angled
-JST ZE series connector, SM15B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-17
-15
-JST
-JST_ZE_SM16B-ZESS-TB_16x1.5mm_Angled
-JST ZE series connector, SM16B-ZESS-TB, 1.50mm pitch, side entry surface mount
-connector jst ze top horizontal angled smt surface mount
-0
-18
-16
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -60126,6 +56892,20 @@ LED_SMD
 LED_Kingbright_APFA3010_3x1.5mm_Horizontal
 LED RGB, APFA3010, http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf
 LED RGB APFA3010 KINGBRIGHT 3x1.5mm
+0
+4
+4
+LED_SMD
+LED_Kingbright_APHBM2012_2x1.25mm
+Dual LED SMD https://www.kingbrightusa.com/KCpack.asp?txtPack=APHBM2012
+LED Kingbright APHM2012
+0
+4
+4
+LED_SMD
+LED_Kingbright_KPBD-3224
+Kingbright, dual LED, red-green, dome lens, 3.2 x 2.4 mm Surface Mount LED Lamp (https://www.kingbright.com/attachments/file/psearch/000/00/00/KPBD-3224SURKCGKC(Ver.20A).pdf)
+Kingbright dual LED KPBD-3224
 0
 4
 4
@@ -64841,6 +61621,20 @@ Analog Devices (Linear Tech), 133-pin BGA uModule, 15.0x15.0x4.92mm, https://www
 134
 134
 Package_BGA
+MAPBGA_9x9mm_Layout17x17_P0.5mm
+MAPBGA 9x9x1.11 PKG, 9.0x9.0mm, 272 Ball, 17x17 Layout, 0.5mm Pitch, https://www.nxp.com/docs/en/package-information/98ASA00869D.pdf#page=1
+BGA 272 0.5
+0
+272
+272
+Package_BGA
+MAPBGA_14x14mm_Layout17x17_P0.8mm
+MAPBGA 14x14x1.18 PKG, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, https://www.nxp.com/docs/en/package-information/98ASA00855D.pdf#page=1
+BGA 289 0.8
+0
+289
+289
+Package_BGA
 Maxim_WLP-9_1.595x1.415_Layout3x3_P0.4mm_Ball0.27mm_Pad0.25mm_NSMD
 Maxim_WLP-9 W91C1+1 https://pdfserv.maximintegrated.com/package_dwgs/21-0459.PDF
 Maxim_WLP-9
@@ -64861,6 +61655,48 @@ BGA 196 0.75
 0
 196
 196
+Package_BGA
+Micron_FBGA-78_7.5x10.6mm_Layout9x13_P0.8mm
+FBGA-78, 10.6x7.5mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=24
+BGA 78 0.8
+0
+78
+78
+Package_BGA
+Micron_FBGA-78_8x10.5mm_Layout9x13_P0.8mm
+FBGA-78, 10.5x8.0mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=25
+BGA 78 0.8
+0
+78
+78
+Package_BGA
+Micron_FBGA-78_9x10.5mm_Layout9x13_P0.8mm
+FBGA-78, 10.5x9.0mm, 78 Ball, 9x13 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=23
+BGA 78 0.8
+0
+78
+78
+Package_BGA
+Micron_FBGA-96_7.5x13.5mm_Layout9x16_P0.8mm
+FBGA-96, 13.5x7.5mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=27
+BGA 96 0.8
+0
+96
+96
+Package_BGA
+Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm
+FBGA-96, 14.0x8.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=28
+BGA 96 0.8
+0
+96
+96
+Package_BGA
+Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm
+FBGA-96, 14.0x9.0mm, 96 Ball, 9x16 Layout, 0.8mm Pitch, https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf#page=26
+BGA 96 0.8
+0
+96
+96
 Package_BGA
 ST_uTFBGA-36_3.6x3.6mm_Layout6x6_P0.5mm
 ST uTFBGA-36, 0.25mm pad, 3.6x3.6mm, 36 Ball, 6x6 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stulpi01a.pdf
@@ -65772,6 +62608,13 @@ LFCSP-WD NoLead
 24
 11
 Package_CSP
+Maxim_WLCSP-32_3.0x2.17mm_Layout7x5_P0.4mm_Ball0.27mm_Pad0.25mm
+WLCSP-32, 2.168x2.998mm, 35 Ball, 7x5 Layout, 0.4mm Pitch, https://pdfserv.maximintegrated.com/package_dwgs/21-100489.PDF
+CSP 35 0.4
+0
+35
+35
+Package_CSP
 ST_WLCSP-25_Die425
 WLCSP-25, 5x5 raster, 2.097x2.493mm package, pitch 0.4mm; see section 7.6 of http://www.st.com/resource/en/datasheet/stm32l031f6.pdf
 BGA 25 0.4
@@ -66055,6 +62898,13 @@ Package_CSP
 WLCSP-4-X1-WLB0909-4_0.89x0.89mm_P0.5mm
 X1-WLB0909, 0.89x0.89mm, 4 Ball, 2x2 Layout, 0.5mm Pitch, https://www.diodes.com/assets/Datasheets/AP22913.pdf
 CSP 4 0.5
+0
+4
+4
+Package_CSP
+WLCSP-4_0.64x0.64mm_P0.35mm
+WLCSP-4, 0.64x0.64mm, 4 Ball, 2x2 Layout, 0.35mm Pitch, https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf#page=23
+CSP 4 0.35
 0
 4
 4
@@ -66519,6 +63369,20 @@ DDB Package; 12-Lead Plastic DFN (3mm x 2mm) (see Linear Technology DFN_12_05-08
 DFN 0.45
 0
 15
+13
+Package_DFN_QFN
+DFN-12-1EP_3x3mm_P0.5mm_EP1.6x2.5mm
+DFN, 12 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2207-2MHz-3A-PWM-Buck-Regulator-DS20006470A.pdf#page=22), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+17
+13
+Package_DFN_QFN
+DFN-12-1EP_3x3mm_P0.5mm_EP1.6x2.5mm_ThermalVias
+DFN, 12 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2207-2MHz-3A-PWM-Buck-Regulator-DS20006470A.pdf#page=22), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+24
 13
 Package_DFN_QFN
 DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm
@@ -67606,6 +64470,20 @@ QFN NoLead
 55
 29
 Package_DFN_QFN
+QFN-28-1EP_5x5mm_P0.5mm_EP3.75x3.75mm
+QFN, 28 Pin (https://www.cmlmicro.com/wp-content/uploads/2017/10/CMX901_ds.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+38
+29
+Package_DFN_QFN
+QFN-28-1EP_5x5mm_P0.5mm_EP3.75x3.75mm_ThermalVias
+QFN, 28 Pin (https://www.cmlmicro.com/wp-content/uploads/2017/10/CMX901_ds.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+91
+29
+Package_DFN_QFN
 QFN-28-1EP_5x6mm_P0.5mm_EP3.65x4.65mm
 QFN, 28 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/05081932_0_UHE28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -68159,6 +65037,20 @@ QFN NoLead
 104
 53
 Package_DFN_QFN
+QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm
+QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+61
+57
+Package_DFN_QFN
+QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias
+QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+66
+57
+Package_DFN_QFN
 QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
@@ -68564,6 +65456,13 @@ TDFN DFN 0.5mm
 0
 17
 9
+Package_DFN_QFN
+TDFN-8_1.4x1.6mm_P0.4mm
+TDFN, 8 Pin (https://www.silabs.com/documents/public/data-sheets/si7210-datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+TDFN NoLead
+0
+8
+8
 Package_DFN_QFN
 TDFN-10-1EP_2x3mm_P0.5mm_EP0.9x2mm
 TDFN, 10 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0429.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -69799,6 +66698,20 @@ WQFN NoLead
 Package_DFN_QFN
 WQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm_ThermalVias
 WQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/tpa6132a2.pdf#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+26
+17
+Package_DFN_QFN
+WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm
+WQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/tlv9064.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+21
+17
+Package_DFN_QFN
+WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias
+WQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/tlv9064.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
 WQFN NoLead
 0
 26
@@ -79618,6 +76531,13 @@ ESP WROOM-02 espressif esp8266ex
 19
 19
 RF_Module
+ESP32-S2-MINI-1
+2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
+2.4 GHz Wi-Fi Bluetooth external antenna espressif  20*15.4mm
+0
+73
+65
+RF_Module
 ESP32-S2-MINI-1U
 2.4 GHz Wi-Fi and Bluetooth combo chip, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf
 2.4 GHz Wi-Fi Bluetooth external antenna espressif  15.4*15.4mm
@@ -81984,6 +78904,13 @@ DFN Sensor optical IR
 8
 8
 Sensor
+LuminOX_LOX-O2
+SST LuminOX Luminescence-based O2 sensor, https://sstsensing.com/wp-content/uploads/2021/08/DS0030rev15_LuminOx.pdf
+SST LuminOX O2
+0
+4
+4
+Sensor
 MQ-6
 Gas Sensor, 6 pin, https://www.winsen-sensor.com/d/files/semiconductor/mq-6.pdf
 gas sensor
@@ -82011,6 +78938,13 @@ co2 gas sensor pwm modbus
 0
 9
 9
+Sensor
+Winson_GM-402B_5x5mm_P1.27mm
+Winson GM-402B, 8 Pin (https://www.winsen-sensor.com/d/files/me2/mems--gm-402b--manual-v1_1.pdf)
+Winson
+0
+8
+8
 Sensor_Audio
 CUI_CMC-4013-SMT
 Omnidirectional, -42dB, reflowable, electret condenser microphone https://www.cuidevices.com/product/resource/cmc-4013-smt-tr.pdf
@@ -83474,20 +80408,6 @@ Logo WEEE
 0
 0
 0
-TB67H420FTG
-TB67H420FTG
-
-
-0
-19
-17
-TB9051FTG
-TB9051FTG
-
-
-0
-19
-16
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -88283,20 +85203,6 @@ igbt diode module
 0
 25
 25
-VNH7070BASTR
-SOIC127P600X175-16N
-
-
-0
-16
-16
-VNH7070Breakout
-DIPS4200W62P254L4150H1500Q30N
-ST EV-VNH7070AS
-Undefined or Miscellaneous
-0
-30
-30
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -89067,10 +85973,3 @@ varistor SIOV
 0
 2
 2
-pi_zero
-ADA3708_RPI-ZERO
-Raspberry Pi board model B+, full outline with position of big connectors &amp; drill holes
-
-0
-40
-40
