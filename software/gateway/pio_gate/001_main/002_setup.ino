@@ -43,7 +43,6 @@ void setup()
 
   // Start I2C
   Serial.println("Start I2C");
-  pinMode(ledPin, OUTPUT);
   Wire.begin(); // Start the I2C
 
   // Start RTC

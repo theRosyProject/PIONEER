@@ -28,12 +28,6 @@ EspMQTTClient client(
   ESPName      // Client name that uniquely identify your device
 );
 
-int ledPin = 0;
-int inputInt = HIGH;
-
-//const int BUFFER_SIZE = 50;
-//char buf[BUFFER_SIZE];
-
 // save time into variable for the keep alive message to send to the broker
 //uint8_t previousHour;
 
@@ -127,7 +121,7 @@ void setup()
 
   // Start I2C
   Serial.println("Start I2C");
-  pinMode(ledPin, OUTPUT);
+  //pinMode(ledPin, OUTPUT);
   Wire.begin(); // Start the I2C
 
   // Start RTC
@@ -227,7 +221,7 @@ void loop()
       // Send data on the cloud
       //String myString = Serial.readString();
       String myString = (char*)buf;
-      digitalWrite(ledPin, LOW);   // sets the LED on
+      //digitalWrite(ledPin, LOW);   // sets the LED on
       DateTime now = rtc.now();
       char buf1[20];
       sprintf(buf1, "%02d/%02d/%02d %02d:%02d:%02d ",  now.year(), now.month(), now.day(), now.hour(), now.minute(), now.second() );
@@ -238,7 +232,7 @@ void loop()
     else
     {
       Serial.println("Receive failed");
-      digitalWrite(ledPin, HIGH);
+      //digitalWrite(ledPin, HIGH);
     }
   }
 

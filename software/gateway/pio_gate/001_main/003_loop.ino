@@ -11,7 +11,6 @@ void loop()
   // debug to send serial message over the MQTT
   // if (Serial.available() > 0) {
   //   String myString = Serial.readString();
-  //   digitalWrite(ledPin, LOW);   // sets the LED on
 
   //   DateTime now = rtc.now();
   //   char buf1[20];
@@ -21,7 +20,7 @@ void loop()
   //   //client.publish("test", myString);
   //   client.publish(TOPIC, myString);
   // } else {
-  //   digitalWrite(ledPin, HIGH);
+  //   
   // }
 
   if (rf95.available())
@@ -49,7 +48,6 @@ void loop()
       // Send data on the cloud
       //String myString = Serial.readString();
       String myString = (char*)buf;
-      digitalWrite(ledPin, LOW);   // sets the LED on
       DateTime now = rtc.now();
       char buf1[20];
       sprintf(buf1, "%02d/%02d/%02d %02d:%02d:%02d ",  now.year(), now.month(), now.day(), now.hour(), now.minute(), now.second() );
@@ -60,7 +58,6 @@ void loop()
     else
     {
       Serial.println("Receive failed");
-      digitalWrite(ledPin, HIGH);
     }
   }
 

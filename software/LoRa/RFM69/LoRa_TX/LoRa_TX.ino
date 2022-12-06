@@ -46,6 +46,10 @@ char* ESPName = "Node_1";
 // Singleton instance of the radio driver
 RH_RF95 rf95(RFM95_CS, RFM95_INT);
 
+// Read message from serial and send over LoRa
+String inputString = "";      // a String to hold incoming data
+bool stringComplete = false;  // whether the string is complete
+
 // RTC 
 #include "RTClib.h"
 RTC_DS3231 rtc;
@@ -141,12 +145,39 @@ void setup()
         while (1) delay(10);
   }
 
+  // reserve 200 bytes for the inputString:
+  inputString.reserve(200);
+
 }
 
 int16_t packetnum = 0;  // packet counter, we increment per xmission
 
 void loop()
 {
+
+  // send through LoRa a string when a newline arrives:
+  if (stringComplete) {
+    Serial.println(inputString);
+
+    // remove the new line character at the end of the string
+    //inputString.remove(inputString.length() - 1);
+    // trim the message
+    inputString.trim();
+    // lenght of the string
+    int str_len = inputString.length() + 1;
+    // prepare the character array (the buffer)
+    char char_array[str_len];
+    // copy the message over the array
+    inputString.toCharArray(char_array, str_len);
+
+    // send over LoRa
+    rf95.send((uint8_t *)char_array, str_len);
+
+    // clear the string:
+    inputString = "";
+    stringComplete = false;
+  }
+
   //delay(1000*60); // Wait 1 second between transmits, could also 'sleep' here!
   Serial.println("Transmitting..."); // Send a message to rf95_server
   
@@ -195,6 +226,25 @@ void loop()
     Serial.println("No reply, is there a listener around?");
   }
 
-  delay(1000*60);
+  delay(1000*5);
 
+}
+
+/*
+  SerialEvent occurs whenever a new data comes in the hardware serial RX. This
+  routine is run between each time loop() runs, so using delay inside loop can
+  delay response. Multiple bytes of data may be available.
+*/
+void serialEvent() {
+  while (Serial.available()) {
+    // get the new byte:
+    char inChar = (char)Serial.read();
+    // add it to the inputString:
+    inputString += inChar;
+    // if the incoming character is a newline, set a flag so the main loop can
+    // do something about it:
+    if (inChar == '\n') {
+      stringComplete = true;
+    }
+  }
 }

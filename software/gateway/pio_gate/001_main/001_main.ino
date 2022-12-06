@@ -1,4 +1,4 @@
-// This file contains libraries and Global Variables
+// This file contains Libraries and Global Variables
 
 // Libraries for the SPI protocol
 #include <SPI.h>
@@ -15,11 +15,11 @@
 // Libraries for using the Real Time Clock module
 #include "RTClib.h"
 
+// Libraries for datalogging (for the Node only)
+#include <SD.h>
+
 // ESP8266 configuration variables
 char* ESPName = "Gate_0000"; // This value should be unique
-
-int ledPin = 0;
-int inputInt = HIGH;
 
 // ESP8266 LoRa configuration
 /* for ESP w/featherwing */ 
