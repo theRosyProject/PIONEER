@@ -5,9 +5,21 @@
 // 3: Reboot to connect to WiFi
 
 // Libraries for create the AP
-#include <ESP8266WiFi.h>
-#include <WiFiClient.h>
-#include <ESP8266WebServer.h>
+// #include <ESP8266WiFi.h>
+// #include <WiFiClient.h>
+// #include <ESP8266WebServer.h>
+// #include <ESPAsyncTCP.h>
+// #include <ESPAsyncWebServer.h>
+
+#include <Arduino.h>
+#ifdef ESP32
+  #include <WiFi.h>
+  #include <AsyncTCP.h>
+#else
+  #include <ESP8266WiFi.h>
+  #include <ESPAsyncTCP.h>
+#endif
+#include <ESPAsyncWebServer.h>
 
 // Libraries from https://randomnerdtutorials.com/esp32-esp8266-input-data-html-form/
 //#include <ESPAsyncTCP.h>
@@ -35,11 +47,12 @@ typedef struct {
 const char *ssid = APSSID;
 const char *password = APPSK;
 
-const char* PARAM_INPUT_1 = "input1";
-const char* PARAM_INPUT_2 = "input2";
-const char* PARAM_INPUT_3 = "input3";
+const char* PARAM_INPUT_1 = "SSID";
+const char* PARAM_INPUT_2 = "PASSWORD";
+const char* PARAM_INPUT_3 = "INPUT_X";
 
-ESP8266WebServer server(80);
+//ESP8266WebServer server(80);
+AsyncWebServer server(80);
 
 // HTML web page to handle 3 input fields (input1, input2, input3)
 const char index_html[] PROGMEM = R"rawliteral(
@@ -48,15 +61,15 @@ const char index_html[] PROGMEM = R"rawliteral(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head><body>
   <form action="/get">
-    input1: <input type="text" name="input1">
+    SSID: <input type="text" name="SSID">
     <input type="submit" value="Submit">
   </form><br>
   <form action="/get">
-    input2: <input type="text" name="input2">
+    PASSWORD: <input type="text" name="PASSWORD">
     <input type="submit" value="Submit">
   </form><br>
   <form action="/get">
-    input3: <input type="text" name="input3">
+    INPUT_X: <input type="text" name="INPUT_X">
     <input type="submit" value="Submit">
   </form>
 </body></html>)rawliteral";
@@ -64,11 +77,6 @@ const char index_html[] PROGMEM = R"rawliteral(
 /* Just a little test message.  Go to http://192.168.4.1 in a web browser
    connected to this access point to see it.
 */
-
-void handleRoot() {
-  //server.send(200, "text/html", "<h1>You are connected</h1>");
-  server.send(200, "text/html", index_html);
-}
 
 void setup() {
   delay(1000);
@@ -82,11 +90,53 @@ void setup() {
   IPAddress myIP = WiFi.softAPIP();
   Serial.print("AP IP address: ");
   Serial.println(myIP);
-  server.on("/", handleRoot);
+
+  // Send web page with input fields to client
+  server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
+    request->send_P(200, "text/html", index_html);
+  });
+
+  // Send a GET request to <ESP_IP>/get?input1=<inputMessage>
+  server.on("/get", HTTP_GET, [] (AsyncWebServerRequest *request) {
+    String inputMessage;
+    String inputParam;
+    // GET input1 value on <ESP_IP>/get?input1=<inputMessage>
+    if (request->hasParam(PARAM_INPUT_1)) {
+      inputMessage = request->getParam(PARAM_INPUT_1)->value();
+      inputParam = PARAM_INPUT_1;
+    }
+    // GET input2 value on <ESP_IP>/get?input2=<inputMessage>
+    else if (request->hasParam(PARAM_INPUT_2)) {
+      inputMessage = request->getParam(PARAM_INPUT_2)->value();
+      inputParam = PARAM_INPUT_2;
+    }
+    // GET input3 value on <ESP_IP>/get?input3=<inputMessage>
+    else if (request->hasParam(PARAM_INPUT_3)) {
+      inputMessage = request->getParam(PARAM_INPUT_3)->value();
+      inputParam = PARAM_INPUT_3;
+    }
+    else {
+      inputMessage = "No message sent";
+      inputParam = "none";
+    }
+    Serial.println(inputMessage);
+    request->send(200, "text/html", "HTTP GET request sent to your ESP on input field (" 
+                                     + inputParam + ") with value: " + inputMessage +
+                                     "<br><a href=\"/\">Return to Home Page</a>");
+  });
+
+  server.onNotFound(notFound);
+
   server.begin();
   Serial.println("HTTP server started");
+
 }
 
+void notFound(AsyncWebServerRequest *request) {
+  request->send(404, "text/plain", "Not found");
+}
+
+
 void loop() {
-  server.handleClient();
+  
 }
