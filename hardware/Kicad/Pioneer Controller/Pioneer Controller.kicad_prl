@@ -70,6 +70,35 @@
     "version": 3
   },
   "project": {
+<<<<<<< HEAD
     "files": []
+=======
+    "files": [
+      {
+        "name": "Pioneer Controller.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 896,
+          "pos_y": 345,
+          "size_x": 896,
+          "size_y": 1043
+        }
+      },
+      {
+        "name": "Pioneer Controller.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
+          "pos_y": 25,
+          "size_x": 896,
+          "size_y": 992
+        }
+      }
+    ]
+>>>>>>> d8f2440 (stuff)
   }
 }
