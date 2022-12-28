@@ -72,18 +72,6 @@
   "project": {
     "files": [
       {
-        "name": "Pioneer Controller.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 0,
-          "pos_y": 25,
-          "size_x": 896,
-          "size_y": 992
-        }
-      },
-      {
         "name": "Pioneer Controller.kicad_pcb",
         "open": false,
         "window": {

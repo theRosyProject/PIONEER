@@ -66,33 +66,33 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Pioneer Controller.kicad_prl",
+    "filename": "Pioneer Controller V2.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "Pioneer Controller.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 0,
-          "pos_y": 25,
-          "size_x": 896,
-          "size_y": 992
-        }
-      },
-      {
-        "name": "Pioneer Controller.kicad_pcb",
+        "name": "Pioneer Controller V2.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": 199,
-          "pos_y": 61,
-          "size_x": 1393,
-          "size_y": 970
+          "maximized": false,
+          "pos_x": 1720,
+          "pos_y": 25,
+          "size_x": 1720,
+          "size_y": 1415
+        }
+      },
+      {
+        "name": "Pioneer Controller V2.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 0,
+          "pos_y": 25,
+          "size_x": 1720,
+          "size_y": 1415
         }
       }
     ]
