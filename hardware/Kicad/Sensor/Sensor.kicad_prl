@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -70,6 +70,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "Sensor.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 1720,
+          "pos_y": 25,
+          "size_x": 1720,
+          "size_y": 1361
+        }
+      },
+      {
+        "name": "Sensor.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 1720,
+          "pos_y": 25,
+          "size_x": 1720,
+          "size_y": 1361
+        }
+      }
+    ]
   }
 }
