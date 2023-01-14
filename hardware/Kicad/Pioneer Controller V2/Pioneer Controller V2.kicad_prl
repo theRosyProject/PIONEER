@@ -76,23 +76,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
+          "maximized": false,
           "pos_x": 1280,
           "pos_y": 25,
           "size_x": 1280,
           "size_y": 1361
-        }
-      },
-      {
-        "name": "Pioneer Controller V2.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 0,
-          "pos_y": 25,
-          "size_x": 1280,
-          "size_y": 1360
         }
       }
     ]
