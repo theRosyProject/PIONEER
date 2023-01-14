@@ -77,10 +77,10 @@
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 597,
+          "pos_x": 1280,
           "pos_y": 25,
-          "size_x": 598,
-          "size_y": 989
+          "size_x": 1280,
+          "size_y": 1361
         }
       },
       {
@@ -91,8 +91,8 @@
           "maximized": false,
           "pos_x": 0,
           "pos_y": 25,
-          "size_x": 1720,
-          "size_y": 1415
+          "size_x": 1280,
+          "size_y": 1360
         }
       }
     ]
