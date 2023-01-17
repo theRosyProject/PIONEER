@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -77,20 +77,8 @@
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": 0,
-          "pos_y": 25,
-          "size_x": 1280,
-          "size_y": 1360
-        }
-      },
-      {
-        "name": "Sensor.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 0,
-          "pos_y": 25,
+          "pos_x": 159,
+          "pos_y": 145,
           "size_x": 1280,
           "size_y": 1360
         }
