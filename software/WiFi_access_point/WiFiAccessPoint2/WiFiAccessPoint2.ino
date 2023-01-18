@@ -3,14 +3,9 @@
 // 1: Create AP for accepting connection (done)
 // 2: Upload WiFi SSID and PWD and save in EEPROM
 // 3: Reboot to connect to WiFi
+// https://techtutorialsx.com/2018/01/07/esp32-arduino-http-server-over-soft-ap/
 
 // Libraries for create the AP
-// #include <ESP8266WiFi.h>
-// #include <WiFiClient.h>
-// #include <ESP8266WebServer.h>
-// #include <ESPAsyncTCP.h>
-// #include <ESPAsyncWebServer.h>
-
 #include <Arduino.h>
 #ifdef ESP32
   #include <WiFi.h>
@@ -20,10 +15,6 @@
   #include <ESPAsyncTCP.h>
 #endif
 #include <ESPAsyncWebServer.h>
-
-// Libraries from https://randomnerdtutorials.com/esp32-esp8266-input-data-html-form/
-//#include <ESPAsyncTCP.h>
-//#include <ESPAsyncWebServer.h>
 
 // Libraries for creating EEPROM where to save SSID and PWD of the Gateway/Router
 #include "EEPROM.h"
