@@ -70,31 +70,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "Pioneer Controller V2.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 597,
-          "pos_y": 25,
-          "size_x": 598,
-          "size_y": 989
-        }
-      },
-      {
-        "name": "Pioneer Controller V2.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 0,
-          "pos_y": 25,
-          "size_x": 1720,
-          "size_y": 1415
-        }
-      }
-    ]
+    "files": []
   }
 }

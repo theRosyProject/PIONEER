@@ -22,6 +22,8 @@ RTC_DS3231 rtc;
 EspMQTTClient client(
   "NETGEAR_CBE",  //THIS SHOULD BE CalGuest SSID
   "happybug682", // router password, maybe blank for CalGuest?
+  //"pioneerNet107", //SSID
+  //"d1$0n3$t0#107", //router password
   "159.223.196.81",  // MQTT Broker server ip
   //"MQTTUsername",   // Can be omitted if not needed
   //"MQTTPassword",   // Can be omitted if not needed
