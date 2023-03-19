@@ -1,0 +1,20 @@
+---
+title: "Notes"
+author: "Federico Dallo"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Updates to be made on Sensor PCB
+
+Add minimum instruction/labels on the sensors' PCB to ease the installation of modules.
+For example: 
+
+- ADC mounting orientation and i2c address
+- 4 pin for the CO2 sensor should have V-G-N-P labels
+- 4 pin TX-RX-GND-V on the power and serial
+
