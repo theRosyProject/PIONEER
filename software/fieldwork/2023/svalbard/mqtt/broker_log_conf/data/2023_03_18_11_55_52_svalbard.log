@@ -1,0 +1,2 @@
+{ "brokerTime":"2023-03-18T12:01:34+0100", "topic":"LoRa/temperature", "payload": test message, 30 }
+{ "brokerTime":"2023-03-18T12:01:49+0100", "topic":"LoRa/temperature", "payload": test message, 30 }
