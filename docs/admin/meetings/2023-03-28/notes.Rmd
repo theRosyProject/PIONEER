@@ -1,0 +1,47 @@
+---
+title: "2023-03-28"
+author: "Federico Dallo"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Note
+
+- How much time for assembling sensing systems and gateways? 
+  - Cost per unit? Prepare: 20 PAT, 100 RICK
+- Design CAD of the RICK sensors' holes
+
+## PCB update
+
+- Add a LoRa 868 MHz antenna on the PAT PCB, on the corner (https://www.proto-electronics.com/blog/how-to-design-pcb-antennas)
+- Add RTC to the RICK PCB (below?, on the same i2c connections used for the x49 ADC? Loosing CO2, which is ok as CO2 is more important in homes where there is wifi and there is no need of RTC and SD CARD)
+- Add minimum instruction/labels on the sensors' PCB to ease the installation of modules.
+  - ADC mounting orientation and i2c address (RTC orientation as well for the x49 ADC)
+  - 4 pin for the CO2 sensor should have V-G-N-P labels
+  - 4 pin TX-RX-GND-V on the power and serial
+
+## Other
+
+- Add an IP56 USB socket on the box
+
+## Aknowledgement
+
+PIONEER ... module
+F. Dallo & N. Zhao
+
+## Citation
+
+Defender la alegría como una trinchera,
+un principio, una bandera, un destino,
+una certeza, un derecho. (M. Benedetti)
+
+Difendere l’allegria come una trincea, 
+un principio, una bandiera, un destino, 
+una certezza, un diritto. (M. Benedetti)
+
+http://tiltingourheadsup.blogspot.com/2012/11/mario-benedetti-in-defence-of-joy.html
+
