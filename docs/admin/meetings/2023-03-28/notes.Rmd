@@ -23,6 +23,13 @@ knitr::opts_chunk$set(echo = TRUE)
   - ADC mounting orientation and i2c address (RTC orientation as well for the x49 ADC)
   - 4 pin for the CO2 sensor should have V-G-N-P labels
   - 4 pin TX-RX-GND-V on the power and serial
+  
+## Next Project: Indoor Environment
+
+- EPS8266 controller
+- junction box (https://www.thespruce.com/electrical-switch-and-junction-boxes-1824666)
+- cover plate: holes for the sensors, button for configuration & reset, led for debug. (If possible an USB Type A for interfacing with the esp, but also for recharging a phone?)
+- if not possible having an USB Type A socket, provide a USB socket easy to access when removing the plate, for eventual direct access to the microcontroller
 
 ## Other
 
