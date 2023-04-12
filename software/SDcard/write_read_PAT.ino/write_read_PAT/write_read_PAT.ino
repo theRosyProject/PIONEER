@@ -21,7 +21,7 @@
 #include <SPI.h>
 #include <SD.h>
 
-const uint8_t chipSelect = 14;
+const uint8_t chipSelect = 17;
 
 File myFile;
 

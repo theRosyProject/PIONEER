@@ -40,8 +40,10 @@ RH_RF95 rf95(RFM95_CS, RFM95_INT);
 char* TOPIC = "LoRa";
 
 EspMQTTClient client(
-  "NETGEAR_CBE",  // SSID
-  "happybug682", // password
+  //"NETGEAR_CBE",  // SSID
+  "AlexPcNetwork_2.4_EXT",  // SSID
+  //"happybug682", // password
+  "soranzenvasfeltre", // password
   "159.223.196.81",  // MQTT Broker server ip (fixed)
   //"MQTTUsername",   // Can be omitted if not needed
   //"MQTTPassword",   // Can be omitted if not needed
