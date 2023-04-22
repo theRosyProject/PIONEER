@@ -921,7 +921,6 @@
     )
   )
 
-
   (junction (at 160.02 44.45) (diameter 0) (color 0 0 0 0)
     (uuid 0582b582-db03-4e45-b2b1-101919f4c119)
   )
@@ -1604,7 +1603,7 @@
     (effects (font (size 3.08 3.08) (thickness 0.616) bold) (justify left bottom))
     (uuid 0b75a05d-88ee-4c02-a9a7-c40886b79315)
   )
-  (text "0x40\n" (at 116.84 113.03 0)
+  (text "0x49\n" (at 116.84 113.03 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 8d74f432-0af8-4138-ad11-6e4cb522a946)
   )
