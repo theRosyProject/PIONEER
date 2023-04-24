@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "7.0.1-0"
     },
-    "CreationDate": "2023-04-22T10:08:40-07:00"
+    "CreationDate": "2023-04-22T10:01:52-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "SensorV2",
-      "GUID": "53656e73-6f72-4563-922e-6b696361645f",
+      "Name": "Pioneer Controller V3",
+      "GUID": "50696f6e-6565-4722-9043-6f6e74726f6c",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 82.5066,
-      "Y": 64.1
+      "X": 72.1,
+      "Y": 98.8574
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,54 +27,54 @@
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2,
+      "MinLineWidth": 0.25,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "SensorV2-F_Cu.gbr",
+      "Path": "Pioneer Controller V3-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SensorV2-B_Cu.gbr",
+      "Path": "Pioneer Controller V3-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SensorV2-F_Paste.gbr",
+      "Path": "Pioneer Controller V3-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SensorV2-B_Paste.gbr",
+      "Path": "Pioneer Controller V3-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SensorV2-F_Silkscreen.gbr",
+      "Path": "Pioneer Controller V3-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SensorV2-B_Silkscreen.gbr",
+      "Path": "Pioneer Controller V3-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SensorV2-F_Mask.gbr",
+      "Path": "Pioneer Controller V3-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SensorV2-B_Mask.gbr",
+      "Path": "Pioneer Controller V3-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SensorV2-Edge_Cuts.gbr",
+      "Path": "Pioneer Controller V3-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
