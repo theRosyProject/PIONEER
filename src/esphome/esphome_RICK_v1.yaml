@@ -1,0 +1,47 @@
+esphome:
+  name: rick_home
+  platform: ESP8266
+  board: huzzah
+
+# Enable verbose logging over serial
+logger:
+
+# Enable Home Assistant API
+api:
+
+# Enable OTA access
+ota:
+
+# Setup network config
+wifi:
+  ssid: "NETGEAR_CBE"
+  password: "happybug682"
+# use_address: "192.168.1.37"
+
+uart:
+  rx_pin: 13
+  baud_rate: 9600
+
+# Configure i2c
+i2c:
+  sda: SDA
+  scl: SCL
+  scan: true
+
+# Create sensors
+sensor:
+  - platform: bme280
+    temperature:
+      name: "BME280 Temperature"
+      oversampling: 16x
+    pressure:
+      name: "BME280 Pressure"
+    humidity:
+      name: "BME280 Humidity"
+    address: 0x77
+    update_interval: 10s
+  - platform: pmsx003
+    type: PMSX003
+    pm_2_5:
+      name: "pm_2_5"
+      id: "pm_2_5_raw"

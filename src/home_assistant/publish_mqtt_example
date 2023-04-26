@@ -1,0 +1,9 @@
+trigger:
+    platform: time_pattern
+    minutes: '/1'
+    seconds: 00
+  action:
+     - service: mqtt.publish
+       data:
+         topic: homeassistant/woonkamer/heating
+         payload_template: '{{ states(''sensor.woonkamer_heating'') }}'

@@ -1,0 +1,96 @@
+esphome:
+  name: platform4
+  platform: ESP8266
+  board: huzzah
+
+# Enable verbose logging over serial
+logger:
+
+# Enable Home Assistant API
+api:
+
+# Enable OTA access
+ota:
+
+# Setup network config
+wifi:
+  ssid: "NETGEAR_CBE"
+  password: "happybug682"
+# use_address: "192.168.1.37"
+
+# Configure UART
+uart:
+#  tx_pin: 3
+  rx_pin: 2
+  baud_rate: 9600
+
+# Configure i2c
+i2c:
+  sda: SDA
+  scl: SCL
+  scan: true
+
+# Create sensors
+sensor:
+  - platform: bme280
+    temperature:
+      name: "BME280 Temperature"
+      oversampling: 16x
+    pressure:
+      name: "BME280 Pressure"
+    humidity:
+      name: "BME280 Humidity"
+    address: 0x77
+    update_interval: 10s
+#    
+  - platform: pmsx003
+    type: PMSX003
+#    pm_1_0:
+#      name: "pm_1"
+#    pm_10_0:
+#      name: "pm_10"
+    pm_2_5:
+      name: "pm_2_5"
+      id: "pm_2_5_raw"
+  - platform: copy
+    source_id: pm_2_5_raw
+    name: "pm_2_5_10s"
+    filters:
+      - sliding_window_moving_average:
+          window_size: 10
+          send_every: 10
+  - platform: copy
+    source_id: pm_2_5_raw
+    name: "pm_2_5_30s"
+    filters:
+      - sliding_window_moving_average:
+          window_size: 30
+          send_every: 10
+  - platform: copy
+    source_id: pm_2_5_raw
+    name: "pm_2_5_60s"
+    filters:
+      - sliding_window_moving_average:
+          window_size: 60
+          send_every: 10
+  - platform: copy
+    source_id: pm_2_5_raw
+    name: "pm_2_5_180s"
+    filters:
+      - sliding_window_moving_average:
+          window_size: 180
+          send_every: 10
+  - platform: copy
+    source_id: pm_2_5_raw
+    name: "pm_2_5_300s"
+    filters:
+      - sliding_window_moving_average:
+          window_size: 300
+          send_every: 10
+  - platform: copy
+    source_id: pm_2_5_raw
+    name: "pm_2_5_600s"
+    filters:
+      - sliding_window_moving_average:
+          window_size: 600
+          send_every: 10
